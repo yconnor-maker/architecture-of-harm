@@ -1,0 +1,148 @@
+# Chapter 8: The Children
+
+*Every policy restriction of the last decade was justified in the name of children. Here is what happened to them.*
+
+---
+
+She arrived at triage dilated to eight centimeters. The team moved her urgently to a labor room. On re-exam, there was an anterior lip — a rim of cervix still present. The physician reduced it gently. The fetal heart rate was decelerating: 60s to 90s. Pushing began.
+
+Then the head delivered and the body did not.
+
+Shoulder dystocia. The baby's anterior shoulder was trapped behind the pubic bone. The clock started. McRoberts maneuver — the mother's knees driven toward her chest to widen the pelvic outlet. Suprapubic pressure — an assistant pressing down above the pubic bone to dislodge the shoulder. Neither worked. The physician reached behind the baby and delivered the posterior arm, rotating the body free.
+
+Total time: approximately one minute. The baby was born in direct occiput anterior position. APGAR score at delivery: zero. Not breathing. No heart rate. No muscle tone. No reflex. No color. Zero.
+
+After resuscitation, the APGAR rose to seven. The baby improved significantly. There was a possible fracture of the clavicle — the collarbone may have broken during delivery, a known complication of the maneuvers required to save a life. The mother had a second-degree perineal laceration and two deep labial lacerations tracking toward her urethra, repaired with absorbable suture. The left labia continued to bleed after repair and was managed with gentle pressure.
+
+The placenta was sent to pathology. The delivery was reviewed with the team and the parents. Questions were answered. Surgical counts were correct. The family went home with a baby who, for approximately one minute of its life, had been dead.
+
+That minute is the gap this chapter is about. The space between a system that works and a system that does not — measured in seconds, in staffing levels, in whether the hospital has a neonatologist in the building, in whether the NICU can handle what happens when a delivery goes wrong.
+
+---
+
+## The Poverty Multiplier
+
+When the safety net was dismantled, children absorbed the impact first. The Medicaid unwinding stripped coverage from 5.7 million children — 72% of whom lost their insurance not because they were no longer eligible, but because of administrative paperwork errors. Children comprised 53% of total Medicaid disenrollments. According to KFF and the Georgetown Center for Children and Families, Black and Latino children were disenrolled at 1.8 times the rate of white children for procedural reasons alone. These were not policy decisions about eligibility. They were bureaucratic failures visited upon the most vulnerable enrollees in the system.
+
+The racial architecture of child uninsurance tells its own story. American Indian and Alaska Native children carry the highest uninsured rate at 8.4%, followed by Hispanic children at 8.1%. White non-Hispanic children sit at 3.5%. The gap is not narrowing. Immigration status of parents creates Medicaid and CHIP eligibility barriers for Hispanic children. Geographic isolation reduces coverage enrollment for AI/AN children. And now, the 2026 budget reconciliation proposes a $625 billion reduction in federal Medicaid for children over ten years through per-capita caps and work requirements. According to the Congressional Budget Office, work requirements alone would disenroll an estimated 1.7 million additional children. Thirty-seven million children are currently enrolled. The scale of the proposed cut is civilizational.
+
+Simultaneously, the administration targeted the foundational supports for early childhood. The Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) faces a proposed $1.1 billion cut in the 2026 budget, threatening participation for 1.4 million women, infants, and children. The WIC Cash Value Benefit for fruits and vegetables — the program's most effective nutritional tool — faces a proposed reduction from $26 to $10 for children and from $52 to $13 for breastfeeding mothers. WIC's current enrollment of 6.7 million is already declining: participation among eligible infants fell to 49% in 2025, down from 56% in 2020. Among AI/AN families — who face the highest food insecurity rates in the nation at 27% or higher — WIC enrollment sits at just 38%. The cuts disproportionately harm the 53% Hispanic, 22% Black, and 2% AI/AN families who make up WIC's enrollment base.
+
+Head Start — the early childhood education program that also functions as an essential detection and intervention system for abuse and neglect — faces outright elimination. The 2026 federal budget proposes cutting Head Start's entire $11.7 billion budget, threatening services for 750,000 children ages zero to five. Head Start disproportionately serves children of color: 36% Hispanic, 30% Black, 8% Native American — populations with the fewest alternative early childhood education options. Decades of research, including landmark work by Nobel laureate James Heckman at NBER, show Head Start improves school readiness, health outcomes, and lifetime earnings. No replacement mechanism has been proposed.
+
+The childcare system, already a market failure, collapsed further. With the $24 billion ARPA childcare stabilization fund expiring in September 2024 — a fund that had preserved an estimated 3.3 million childcare slots and stabilized wages for 1.5 million childcare workers — the sector fell off a fiscal cliff. Federal block grants were reduced. Prices surged 22% between 2020 and late 2024, leaving working families spending up to 16% of their income on care for a single child. Family childcare homes, predominantly owned by women of color, received proportionally less stabilization funding than center-based providers due to application complexity. The childcare workforce — 46% workers of color, median wage $13.65 per hour — has no economic incentive to remain.
+
+And then *Dobbs* forced hundreds of thousands of pregnancies that women did not want and could not afford. The UCSF Turnaway Study provides the definitive data on children born from denied terminations. Their mothers were four times more likely to fall below the federal poverty line. The children themselves faced worse developmental outcomes: lower scores on cognitive assessments, higher rates of behavioral and emotional problems, and a lower likelihood of meeting educational benchmarks. In Texas, infant mortality due to congenital anomalies increased 22.9% following the implementation of SB8, compared to a 3.1% decrease nationally — a finding published in JAMA Pediatrics that quantifies the lethal cost of forcing families to carry pregnancies with fatal fetal diagnoses to term.
+
+The mechanism here is not complex. Poverty is the single most powerful predictor of adverse childhood outcomes. Forced birth drives poverty. The policies of the administration guaranteed both.
+
+## Before the First Breath: Infant Mortality and NICU Disparities
+
+The infant mortality rate in the United States is 5.4 per 1,000 live births. For Black infants, it is 9.8. For AI/AN infants, 8.1. For white infants, 4.3. The Black-to-white ratio — 2.28 to 1 — has not materially changed in a generation.
+
+The disparities begin in the NICU. According to the Vermont Oxford Network, Black very preterm infants have 30% higher in-NICU mortality than white very preterm infants after controlling for gestational age — 10.2% versus 7.8%. Severe intraventricular hemorrhage rates are more than double: 9.3% for Black infants versus 4.4% for white. A critical driver is the antenatal corticosteroid gap: only 62% of Black mothers delivering very preterm receive antenatal steroids, compared to 79% of white mothers. This is not a knowledge gap. It is a care-delivery failure.
+
+Geography compounds race. Black and AI/AN infants are disproportionately born at hospitals without Level III NICUs — 28% and 41% respectively, compared to 19% for white infants. Rural NICUs transport very low birth weight infants a median of 47 miles to reach Level III care. Transport-associated morbidity — hypothermia, oxygen desaturation, glucose derangement — occurs in 18% of these transfers. Every mile is a risk multiplier.
+
+Sudden Unexpected Infant Death tells the same story in different registers. The overall SUID rate is 0.87 per 1,000 live births. For AI/AN infants, it is 1.91. For Black infants, 1.72. For white infants, 0.72. Unsafe sleep environments — bed-sharing on adult mattresses, soft bedding, prone positioning — are more prevalent in low-income households, where the cost of a crib is not trivial and where safe sleep campaigns have failed to reach.
+
+## Breastfeeding: The First Disparity
+
+Breastfeeding initiation has reached 84.1% nationally. But the racial gap persists with mechanical precision. Black infants have a 73.6% initiation rate compared to 88.9% for white infants — a 15-point gap. By six months, exclusive breastfeeding rates diverge further: 18.8% for Black infants versus 28.5% for white infants, according to the CDC.
+
+The causes are structural, not cultural. Black mothers face shorter maternity leave, less workplace lactation support despite the PUMP Act, higher rates of in-hospital formula supplementation, and dramatically lower access to IBCLC-certified lactation consultants. NICU separation — which Black infants experience at higher rates due to higher preterm birth rates — reduces initiation. In NICUs, kangaroo mother care hours reveal the gap: Black families average 2.1 hours per day of skin-to-skin contact versus 3.4 hours for white families. The barriers are language, transportation, work schedules, and implicit provider bias.
+
+The downstream costs are measurable. Lower breastfeeding rates are associated with higher gastrointestinal infection, otitis media, SIDS, and childhood obesity. Black infants bear a disproportionate disease burden from this single disparity.
+
+## Feeding the Children: The Food Insecurity Crisis
+
+In 2024, 14.1 million children lived in food-insecure households — up from 13.8 million the year before. The racial breakdown is stark: 42.4% of Black households with children and 42.7% of Hispanic households are food-insecure, compared to 25.0% of white households. The numbers are climbing.
+
+The SNAP emergency allotments that had cushioned millions of families ended in March 2023, cutting benefits for 30 million households by an average of $90 per month. Food pantry demand surged 30-50% immediately. Feeding America projects national food bank demand to increase 13% in 2026 versus the 2023 baseline. And now, the 2025 reconciliation package proposes $230 billion in ten-year SNAP cuts, expanding work requirements to parents of children ages seven to seventeen and ending the longstanding caregiver exemption. The Center on Budget and Policy Priorities projects 5 to 10 million individuals at risk of losing benefits. Families with children bear approximately 40% of the cuts.
+
+School meals — the last standing universal nutrition program for children — are under direct threat. Thirty million children rely on school meals. The 2026 budget reconciliation proposes requiring states to fund 25% of school meal costs, up from zero, jeopardizing universal free meal programs in eighteen states. Separately, the House Child Nutrition Reauthorization proposal would raise the Community Eligibility Provision poverty threshold from 40% to 60%, eliminating universal free lunch for approximately 7,000 schools serving 18 million students. Nine states have enacted universal school meals laws since the pandemic, reporting 15-30% increases in participation, elimination of meal debt, and improved attendance. The federal government is now moving to dismantle what the states built.
+
+For Native American communities, the crisis is existential. AI/AN households face food insecurity rates of 27% or higher nationally, reaching 44% in some reservation communities. Thirty percent of tribal households lack a SNAP-authorized store within ten miles. The Food Distribution Program on Indian Reservations provides processed staples that bear no relationship to traditional Indigenous diets. Traditional foods represent less than 1% of SNAP-eligible items.
+
+## The Poisoned Environment
+
+Children living in poverty are more than twice as likely to have elevated blood lead levels. Five hundred thousand children ages one to five currently have blood lead levels at or above 3.5 micrograms per deciliter. AI/AN infants carry a mean blood lead level of 2.8 micrograms per deciliter versus 1.4 for white infants — double the exposure, in a context where no safe level exists. Each 10-microgram increase costs 1 to 5 IQ points, permanently. The EPA reports that 37% of K-12 schools have detectable lead in drinking water, with Black and Hispanic students disproportionately attending the most contaminated schools.
+
+PFAS contamination has reached breast milk. According to the EPA and the Silent Spring Institute, 45% of U.S. breast milk samples tested in 2024-2025 contained detectable PFAS. Children exposed to PFAS show 40% reduced vaccine response and elevated thyroid dysfunction risk. AI/AN communities near military bases and manufacturing sites face PFAS exposure four to ten times higher than the general population. Two hundred million Americans drink PFAS-contaminated water, and the children among them are absorbing these chemicals through every route — water, food, dust, and the breast milk that is supposed to protect them.
+
+Wildfire smoke adds another layer. Children exposed to wildfire PM2.5 have 39% higher respiratory ER visits.[^13] The western United States saw a 22% increase in pediatric respiratory hospitalizations during the 2024 fire season.[^13] Black children already carry an asthma prevalence of 13.4%, nearly double the 7.7% rate for white children[^14], and asthma accounts for 13.8 million missed school days annually.[^14] Environmental deregulation under the 2025 EPA rollbacks compounds every one of these exposures.
+
+## The Return of Child Labor
+
+As families were pushed deeper into poverty, the regulatory guardrails protecting children were simultaneously dismantled. The Department of Labor documented 17,203 children employed in violation of child labor laws in fiscal year 2023[^2] — the highest number in fifteen years. Violations increased 88% between 2019 and 2023[^3]. Six hundred eighty-eight employers were cited. Total penalties amounted to $6.6 million, an average of $9,600 per violation — less than the cost of a month's childcare.
+
+This was not accidental. Twenty-eight states introduced or passed legislation weakening child labor protections[^30], lowering the minimum age for hazardous work, extending allowable working hours, and removing work permit requirements. The children filling these slots are predominantly Hispanic and Latino immigrant youth, including unaccompanied minors released from HHS custody to sponsors who exploit them for labor in meatpacking, food processing, construction, and cleaning. The safety net was cut, forcing teenagers into the labor market. Then the labor market's protections were removed to receive them.
+
+## The Vaccination Collapse
+
+National kindergarten MMR vaccination coverage fell from 95.2% in the 2019-2020 school year to 92.7% in 2023-2024[^7] — below the 95% herd immunity threshold. That decline left 280,000 unprotected kindergartners[^7]. By 2025, the United States recorded 1,333 confirmed measles cases[^8], the highest since the disease was declared eliminated in 2000.
+
+The collapse was engineered from the top. All seventeen members of the Advisory Committee on Immunization Practices were dismissed in February 2025 by HHS Secretary RFK Jr.[^9] The replacement committee was not seated for four months. A fifty-year institution of independent scientific vaccine review was decapitated. Infant vaccine series completion declined to 69.5% by age 24 months[^10], with stark racial gaps: 61.2% for Black infants versus 74.3% for white. Among undocumented and mixed-status immigrant children, vaccination rates are 12 to 18 percentage points lower than citizen children[^11] — the 2025 immigration enforcement surge significantly increased healthcare avoidance in immigrant communities, with 55% of parents in mixed-status families reporting they avoided healthcare for their children entirely[^12].
+
+## The Pediatric Mental Health Catastrophe
+
+Among high school girls, persistent sadness or hopelessness increased from 36% in 2011 to 57% in 2021.[^15] For Black girls, the rate reached 69%[^31]. For Native and Indigenous girls, 74%[^31]. Suicidal ideation stands at 30% for girls nationally[^15]. The CDC Youth Risk Behavior Surveillance System data is unambiguous: this is the worst adolescent mental health crisis in the history of the survey.
+
+Black youth suicide rates increased 78% from 2018 to 2022.[^16] Black boys ages five to twelve now have the highest suicide rate of any pediatric racial group[^16]. AI/AN youth have suicide rates 2.5 to 3 times the national average[^17], with mental health services on reservations available at only 40% of recommended levels. The pediatric mental health system's response has been structural failure: 48% of children presenting to emergency departments with psychiatric crises board for 24 hours or more awaiting admission.[^18] Pediatric psychiatric bed capacity contracted 8% between 2016 and 2023, with 90% of remaining beds concentrated in urban areas.
+
+The school system — theoretically the frontline of detection — cannot absorb the demand. The national school counselor ratio stands at 1:408 versus the recommended 1:250.[^19] Ninety-six percent of counselors report inability to meet student needs.[^19] Counselors devote only 25% of their time to mental health support[^19], diverted to administrative tasks like scheduling and test coordination.
+
+Transgender youth face a compounded crisis. Twenty-six states have enacted bans on gender-affirming care for minors, affecting approximately 150,000 young people.[^20] According to the Williams Institute at UCLA, transgender youth in ban states report 72% higher rates of suicidal ideation and twice the attempted suicide rate compared to youth in non-ban states.[^21] The Trevor Project's 2024 survey found that 41% of LGBTQ youth nationally seriously considered suicide in the past year[^22] — a figure that rose to 56% in states without legal protections.[^22]
+
+## The Foster Care Pipeline
+
+Black children represent 14% of the U.S. child population but 23% of all children in foster care[^23], according to the Administration for Children and Families. The overrepresentation is driven by systemic bias in mandated reporting, structural poverty, and disproportionate scrutiny of marginalized families by child protective services. Girls in foster care are 2.5 times more likely to experience teen pregnancy than their non-foster peers.[^24] Fifty percent of former foster youth have a child before age 21.[^24] Sixty percent report inconsistent access to contraception.[^24]
+
+Meanwhile, 5.1 million U.S.-citizen children have at least one undocumented parent.[^5] The 2025-2026 immigration enforcement surge has subjected 185,000 or more of these citizen children to parental deportation or detention.[^5] Parental absence is itself an ACE — one that produces PTSD, anxiety, behavioral regression, educational disruption, and, for many, entry into the very foster care system that will compound their trauma.
+
+## The ACEs Pipeline: Building Tomorrow's Mortality Crisis
+
+The CDC's Adverse Childhood Experiences study established the dose-response relationship between childhood adversity and adult health outcomes. The math is not theoretical. It is a biological certainty.
+
+Currently, 1 in 5 American adults carries an ACE score of 4 or higher[^25] — a figure the CDC's BRFSS data places at 20.4%.[^25] Among American Indian and Alaska Native adults, that figure is 32.4%, the highest of any racial group. Each additional ACE increases the risk of preterm birth — a BMJ pooled meta-analysis found an odds ratio of 1.41 for any ACE exposure.[^26] An ACE score of 4 or higher triples a woman's risk of developing preeclampsia.[^27] An ACE score of 6 reduces life expectancy by 20 years.[^28] California's Medi-Cal ACE Aware program, active since 2020, remains the only state-level initiative with reimbursable screening linked to trained referral infrastructure — a model no other state has replicated.
+
+The crises documented in this chapter — the 5.7 million children who lost Medicaid[^1], the 17,203 children in illegal labor, the 14.1 million children in food-insecure households[^4], the 185,000 citizen children experiencing parental deportation, the half-million children with elevated blood lead[^6] — are all accumulating ACEs right now.
+
+This is the pipeline. Childhood adversity feeds into the adolescent mental health crisis. That distress feeds into substance use, which feeds into chronic disease, which feeds into pregnancy complications, which feeds into maternal death. Firearms are now the leading cause of death for children ages one to nineteen — 4,752 pediatric firearm deaths in 2022[^29], with Black children facing a firearm homicide rate 20 times higher than white children.
+
+The maternal mortality crisis of 2035 and 2040 is being built today. We know precisely how many children are entering the pipeline, and we know exactly what will happen to them when they reach the end of it.
+
+
+## References
+
+[^1]: KFF; CMS Unwinding Dashboard; Georgetown Center for Children and Families (Labora Rounds: rec7hnZWAshPSVpIU)
+[^2]: DOL Wage and Hour Division; NYT investigative reporting; ProPublica (Labora Rounds: rec7e1vtuurWwx3Ci)
+[^3]: DOL Wage and Hour Division (Labora Rounds: recpEE1bz0JYqnAF1)
+[^4]: USDA Economic Research Service / Urban Institute (Labora Rounds: rec6kPPo5Yvgco8u6)
+[^5]: Urban Institute; MPI; ICIJ; American Academy of Pediatrics (Labora Rounds: recMrpABr5BWunccv)
+[^6]: CDC; NHANES; EPA (Labora Rounds: rechoULOCIUJl8Ah9)
+[^7]: CDC MMWR; National Immunization Survey (Labora Rounds: recCsLWUzPOs62iWM)
+[^8]: CDC; HHS; ACIP (Labora Rounds: recEo4TiGMghjsSQP)
+[^9]: HHS; CDC; NEJM; AAP (Labora Rounds: recAHQngtj7PiqHXi)
+[^10]: CDC National Immunization Survey-Child (NIS-Child) (Labora Rounds: recSy31pl6DOWhgtc)
+[^11]: UCLA Center for Health Policy Research; NCLR; Urban Institute (Labora Rounds: recFN9vP4g5M2b9TF)
+[^12]: Urban Institute; UnidosUS; National Immigration Law Center (Labora Rounds: recjgh3wHQSXVXTC5)
+[^13]: JAMA; Environmental Health Perspectives; EPA; NOAA (Labora Rounds: rec3ThOZcWVN3qYXp)
+[^14]: CDC National Health Interview Survey; MMWR; Asthma and Allergy Foundation (Labora Rounds: rec9gedXzNAlcuTsP)
+[^15]: CDC Youth Risk Behavior Surveillance System (YRBSS) (Labora Rounds: rec6Dv2KallXBGODX)
+[^16]: CDC WISQARS; JAMA Pediatrics; AFSP (Labora Rounds: recqOWMlmUEEKRsNb)
+[^17]: Data Source (Labora Rounds: recsC4bMrtGjM8h92)
+[^18]: AJMC / Lurie Children's Hospital / WBJournal (Labora Rounds: recEUIdP8ICMwPoa5)
+[^19]: ASCA (American School Counselor Association); NCES; Education Trust (Labora Rounds: rec9cs4ZfU6O4LJzF)
+[^20]: Movement Advancement Project; ACLU (Labora Rounds: reclI39xvLEq2ChdI)
+[^21]: Williams Institute, UCLA; Trevor Project (Labora Rounds: recQwgrcj6nB1twd0)
+[^22]: Trevor Project (Labora Rounds: recS7RTnIfJ9KHCPk)
+[^23]: Administration for Children and Families (ACF) (Labora Rounds: recT98xZcpCn7djl3)
+[^24]: Chapin Hall; Child Welfare League of America; Guttmacher Institute (Labora Rounds: recXqAUTFSCQvwcFO)
+[^25]: CDC (BRFSS) (Labora Rounds: recp9gjRDS4kC8yv3)
+[^26]: BMJ (pooled meta-analysis) (Labora Rounds: recOdNvEGcogEy6vn)
+[^27]: CDC; Kaiser Permanente (Felitti et al.) (Labora Rounds: rec2ib3UwkTm9HnEy)
+[^28]: High-ACE adults (Labora Rounds: recfnSRTggqhgOGW3)
+[^29]: CDC WISQARS; NEJM; Pediatrics; Everytown for Gun Safety (Labora Rounds: recGc1uCeeuieeSt8)
+[^30]: Data Source (Labora Rounds: recjK6BwB48fK40L0)
+[^31]: Data Source (Labora Rounds: recP3k6r66U8Z3q50)

@@ -1,0 +1,148 @@
+# Chapter 5: The Substance Use Crisis
+
+---
+
+The chart said: prenatal urine drug screen positive for marijuana. Negative on admission.
+
+That was one line. Here is the rest: She was twenty-something. Second pregnancy. Being induced at thirty-eight weeks for gestational diabetes that had required insulin after metformin failed. She had depression. She had ADHD. She had a history of syphilis in a prior pregnancy — treated, but her titers were still positive, still being tracked. She had obesity. She had asthma. She was having a boy. She wanted an epidural. Her blood sugars at midnight and 4 a.m. were 84 and 79 — good control, the insulin was working. The induction was progressing.
+
+The marijuana was the least of it. Every substance on a prenatal drug screen arrives inside a patient who carries everything else — the depression, the untreated ADHD, the poverty, the prior infections that got treated but never got followed up, the metabolic disease that requires daily self-management in a life that has very little margin for self-management. The screen is a snapshot. The patient is a system.
+
+"Medicine is a reflection of culture," a physician said, dictating notes for a separate case — the story of a woman she called Keisha, whose experience with substance use disorder during pregnancy had become illustrative of something larger than any single clinical encounter. "The reason that it's so hard for people to get help for mental health disorders and for substance use disorders is because we as a society have stigmatized them." She paused. "Is it the responsibility of a physician to solve all of society's problems? No. But what is the responsibility of a physician is to make humanizing stories and to make it real for people. The framing that people see views people as criminals. And so it shouldn't be surprising to anyone that in pregnancy, people feel a lot of shame."
+
+Among pregnant individuals with substance use disorders, approximately 70 percent have co-occurring mental health conditions. Fewer than 25 percent receive integrated treatment for both.[^1] The physician's own word for it was "a human rights crisis."
+
+---
+
+## The Leading Medical Killer of Pregnant Women
+
+The leading cause of maternal mortality in the United States is homicide — a crisis documented in this report's treatment of sexual violence. But the leading *medical* cause — the one that has quietly overtaken hemorrhage, hypertension, and infection since 2020 — is overdose. Between 2017 and 2020, overdose deaths among pregnant and postpartum women increased by 81 percent.[^2] Among women ages 35 to 44, maternal overdose mortality tripled between early 2018 and late 2021[^3], tracking the arrival of illicit fentanyl into the drug supply. The overwhelming majority of these deaths happened outside healthcare settings — in homes, in cars, alone — by women who could not or would not access treatment, in many cases because the system had already told them that seeking help would cost them their children.
+
+This chapter addresses opioids — but it cannot stop there. The substance use crisis affecting pregnant women in America is no longer a single-drug epidemic. It is a polysubstance catastrophe in which fentanyl, methamphetamine, alcohol, and cannabis converge in a treatment system built to address none of them simultaneously, inside a legal architecture designed to punish rather than heal.
+
+This is not a natural disaster. It is a policy outcome.
+
+## The Qualitative Shift: Fentanyl, Xylazine, and the New Drug Supply
+
+The opioid epidemic that began killing pregnant women in earnest in the early 2010s was serious. What exists now is categorically different. Fentanyl-xylazine overdose deaths increased from 99 in 2018 to 6,020 in 2023 — a 6,000 percent increase in five years.[^4] The combination, known as "tranq," has invaded the drug supply nationwide. In Philadelphia, xylazine was detected in more than 80 percent of fentanyl samples tested.[^5] Xylazine is a veterinary sedative, not an opioid — its effects cannot be reversed by naloxone. If a pregnant woman overdoses on fentanyl-xylazine, a bystander with naloxone can reverse the opioid component while the xylazine continues to act, leaving a woman who appears to have been saved still in danger of respiratory depression and cardiovascular collapse. At injection sites, xylazine causes severe necrotic wounds that in the worst cases require amputation. Xylazine crosses the placenta, reducing uteroplacental blood flow and potentially causing intrauterine growth restriction, fetal hypoxemia, and neurological damage. The DEA declared fentanyl-xylazine an emerging threat in 2023; the FDA approved the first xylazine test strips in 2024. Both actions arrived years after the combination had already become dominant in the Northeast.
+
+In October 2023, researchers identified a novel fentanyl birth defect syndrome in infants exposed in utero[^6] — characterized by distinctive facial features, microcephaly, cleft palate, and "rocker bottom" feet. This is a newly named category of harm. The science on its prevalence and long-term outcomes is still emerging, but its identification signals that fentanyl has been in the supply long enough and at high enough concentrations that clinicians are seeing a recognizable developmental pattern. The surveillance systems that made it possible to identify that pattern — the same systems now being dismantled — are the reason we know it exists at all.
+
+The national overdose toll fell to 107,543 deaths in 2023[^7] — the first year-over-year decline in five years after a pandemic-era surge of 29.4 percent in 2020 and another 14.4 percent in 2021. Synthetic opioids were involved in 73 percent of all deaths. The racial distribution is familiar: American Indian and Alaska Native communities bore the highest age-adjusted mortality at 40.4 per 100,000, followed by Black Americans at 34.1, White non-Hispanic at 29.4, Hispanic/Latino at 14.0, and Asian Americans at 4.9.[^8] The communities with the least access to treatment carry the highest mortality.
+
+## Beyond Opioids: The Stimulant and Polysubstance Crisis
+
+The treatment system was built around opioids. The drug supply has moved on. Stimulant use disorder — primarily methamphetamine and cocaine — affects an estimated 4.1 million Americans[^9], and there is no FDA-approved pharmacotherapy for it. Zero medications. The most evidence-based behavioral treatment, contingency management, produces six-month abstinence rates of 30 to 40 percent versus 15 percent in controls — but lacks broad insurance coverage. California launched the first state Medicaid-covered contingency management program in 2024; CMS issued guidance in 2025 enabling additional states to follow. For most pregnant women with stimulant use disorder, no covered treatment exists.
+
+Deaths involving both methamphetamine and opioids increased 600 percent from 2015 to 2021. Methamphetamine is now present in approximately 35 percent of all opioid overdose deaths.[^10] The pharmacology is lethal in combination: methamphetamine creates cardiac arrhythmia while opioids suppress respiration, and for a pregnant woman, the dual insult is compounded by pregnancy's hemodynamic demands. There is no approved dual pharmacotherapy. Buprenorphine addresses the opioid component. Nothing addresses the stimulant component. CDC provisional data from 2026 confirms the geographic split: Western states see rising stimulant deaths while the Northeast trends toward xylazine-fentanyl dominance. The drug supply is regionalizing. Methamphetamine is disproportionately concentrated among White, rural, and AIAN populations; cocaine among Black urban populations. SAMHSA's State Opioid Response grants remain limited to opioid-related activities, structurally excluding stimulants from the federal response.
+
+## Alcohol and Cannabis: The Legal Substances No One Is Treating
+
+Alcohol use disorder affects 28.9 million Americans. Only 7.6 percent received any treatment in the past year. Fewer than 9 percent ever receive FDA-approved pharmacotherapy[^11] despite strong evidence of efficacy. The treatment gap for alcohol dwarfs the gap for opioids, because alcohol is legal, culturally normalized, and still framed as a willpower problem rather than a medical condition.
+
+For pregnant women, the consequences are measured in children. According to the CDC, up to 1 in 20 U.S. school-aged children may have fetal alcohol spectrum disorders. FASDs occur at a rate of 6.1 per 10,000 Medicaid-insured children compared to 1.2 per 10,000 commercially insured children[^12] — a five-fold difference that reflects not just use patterns but screening intensity and the surveillance that poverty attracts. American Indian and Alaska Native communities carry the highest AUD prevalence at approximately 17 percent and the highest alcohol-related mortality.
+
+Prenatal cannabis use doubled between 2002 and 2017 and continues rising, with 6 to 10 percent of pregnant women reporting use.[^13] ACOG recommends abstinence; the data links prenatal cannabis exposure to preterm birth at a relative risk of 1.28, low birth weight, and adverse neurodevelopmental outcomes. In states with legal recreational cannabis, daily use among 18-to-25-year-olds exceeds 30 percent. The normalization of cannabis use has outpaced public health messaging about its risks in pregnancy.
+
+## Neonatal Abstinence Syndrome: A National Average That Hides Geographic Catastrophe
+
+Neonatal abstinence syndrome — the constellation of withdrawal symptoms that infants experience after in utero opioid exposure — declined nationally between 2016 and 2020, from 15.2 to 12.4 cases per 1,000 Medicaid births.[^39] By 2022, the neonatal opioid withdrawal syndrome rate was 6.5 per 1,000 hospital births nationally, with a state range spanning 0.9 to 33.4 per 1,000 — a 37-fold variation within a single country. West Virginia sees 68 NAS cases per 1,000 births.[^14] Hawaii sees 3.2. That national average is the statistic policy briefs cite. It conceals geographic catastrophe.
+
+The national decline means some states are improving while the crisis concentrates — deepening in rural Appalachia, the rural West, and communities where opioid prescribing was heaviest and treatment has always been scarcest. American Indian and Alaska Native infants saw their NAS rate increase 153 percent between 2010 and 2017[^15], reaching 17.0 per 1,000 births — among the highest of any racial group. No surveillance system or treatment expansion has meaningfully addressed this community's exposure. Among Black infants, NOWS diagnosis rates are lower — but researchers note that this may reflect under-diagnosis stemming from lower prenatal MOUD access rather than lower exposure. When mothers remain on MOUD throughout pregnancy, five-year developmental outcomes for NOWS-affected infants are comparable to unexposed peers. The syndrome itself, while distressing, is manageable. The eat-sleep-console scoring model has reduced average hospital stays compared to the older Finnegan scale. What is not manageable is denying the mother treatment and then criminalizing the infant's withdrawal.
+
+## The Racial Paradox: Who Uses, Who Gets Arrested, Who Gets Treated
+
+The data surfaces one of the most clarifying racial paradoxes in public health: White women have the highest documented rates of opioid use disorder in pregnancy, Black women face the highest rates of criminalization for it, and treatment access maps onto race with surgical precision.
+
+Among Medicaid-enrolled pregnant women, White women carry an OUD rate of 5.5 percent[^16] — nearly five times the 1.1 percent rate for Black women and nine times the 0.6 percent rate for Hispanic women. White infants have NAS rates of 10.1 per 1,000 births, compared to 2.9 for Black infants and 2.3 for Hispanic infants. The crisis as measured by medical outcomes is concentrated in White communities.
+
+The crisis as managed by the legal system tells the opposite story. Between 2006 and 2022, there were 1,396 criminal arrests of pregnant and postpartum women[^17] on charges related to substance use. Black women made up 18.2 percent of those arrests, compared to their 13 percent share of the U.S. female population. Multiple studies have documented that Black newborns are more likely to be drug-tested than White newborns, even when the clinical presentation is identical — and are significantly more likely to be reported to CPS, even when substance use is identified at similar rates. Eighty-three percent of the charges were for child neglect, abuse, or endangerment. Ninety-six percent were felonies. The average charge was not a misdemeanor diversion into treatment — it was a felony that follows the woman permanently, affecting custody, employment, housing, and every future encounter with any system that asks about criminal history.
+
+The treatment system reinforces the paradox. According to JAMA Network Open, Black patients diagnosed with OUD were approximately 40 percent less likely than White patients to receive buprenorphine[^18] — the medication that allows office-based treatment with monthly visits. Instead, Black patients were 55 percent more likely to be referred to methadone through Opioid Treatment Programs requiring daily clinic attendance — a model that demands transportation, childcare, and daily schedule disruption structurally harder for women in poverty. The disparity persists across insurance types. It is explained by the same structural racism that created the epidemic's racial geography: White patients were prescribed opioids at approximately twice the rate of Black patients for equivalent pain complaints throughout the 2000s and 2010s, producing the epidemic while simultaneously undertreating Black patients' pain.
+
+Seventy-nine percent of all pregnancy-related substance use arrests occurred in five Southern states.[^19] Alabama alone accounted for 46.5 percent[^20] of all arrests nationally — not because Alabama has the worst substance use problem, but because Alabama has the most aggressive chemical endangerment statute, originally designed for methamphetamine lab operators, subsequently applied to pregnant women through state Supreme Court decisions treating a fetus as a "child" under the statute. Post-Dobbs, Alabama reported over 100 pregnancy prosecution cases in a single year. Nearly half of U.S. states and the District of Columbia now define substance use during pregnancy as child abuse or neglect. As of 2025, Tennessee remains the only state with an explicit criminal statute targeting drug use in pregnancy[^21], but twenty-four states have child abuse laws potentially applicable to MOUD itself — meaning that the treatment ACOG and SAMHSA recommend as the standard of care can be reframed as the basis for prosecution. The legal logic is identical to abortion criminalization: the fetus has rights, the pregnant person is the threat, and the state has standing to intervene.
+
+## The Treatment System That Doesn't Exist at Scale
+
+The clinical evidence on medication-assisted treatment for OUD in pregnancy is unambiguous. Buprenorphine and methadone are the standard of care. ACOG and SAMHSA both recommend MOUD as first-line treatment, and research consistently shows that pregnant people receiving MOUD have 50 percent lower maternal mortality risk[^22], significantly reduced preterm birth, and significantly reduced stillbirth compared to untreated OUD. The alternative — untreated OUD or abrupt withdrawal — is associated with a threefold increase in stillbirth risk and fourfold increase in preterm labor. Longer duration of MOUD use during pregnancy is directly associated with lower rates of preterm birth and term low birthweight. The evidence is not ambiguous. The system ignores it.
+
+Approximately 50 percent of pregnant people with OUD do not receive MOUD. Of 6.1 million Americans with OUD in 2023, only 22.7 percent received specialty treatment[^23] — leaving 4.7 million untreated. The gap is structural.
+
+The X-waiver was eliminated in December 2022. By end of 2023, buprenorphine prescribers had increased 38 percent and new patient starts 24 percent — but gains concentrated in areas that already had providers. A critical barrier persists: pregnant women seeking buprenorphine appointments succeed 61.4 percent of the time, versus 73.9 percent for non-pregnant women[^24] from the same providers. The 12.5-point gap reflects provider liability concerns, attitudinal barriers, and the complexity of managing addiction alongside prenatal care. Meanwhile, 60.7 percent of U.S. counties lack any buprenorphine prescriber[^25]; rural patients travel a median 45 additional miles for access.
+
+Methadone can only be dispensed through approximately 1,900 licensed Opioid Treatment Programs[^26] nationally. COVID-era take-home dose flexibility, made permanent by SAMHSA in 2023, improved retention by 15 to 20 percent — but OTPs remain concentrated in urban areas. The DEA finalized permanent telehealth prescribing rules for buprenorphine in 2025; COVID-era data showed equivalent 12-month retention (54 percent telehealth versus 52 percent in-person)[^27] with lower dropout from transportation barriers. But telehealth disproportionately benefits patients with broadband and smartphones — a digital divide that maps onto the same inequities defining the rest of the crisis.
+
+Federally qualified health centers have emerged as the critical safety net, reaching an estimated 1.8 million patients with OUD through buprenorphine in 2022 — approximately 42 percent[^28] of all buprenorphine prescriptions. Because FQHCs serve majority low-income and BIPOC populations, they narrow racial disparities in prescribing. But at the facilities serving Medicaid populations, the initial behavioral health evaluation wait reaches 10 weeks[^29] — twice the national average. For a pregnant woman, 10 weeks is an entire trimester. Every day on a waiting list is a day of potentially lethal exposure.
+
+The behavioral health workforce cannot overcome this gap. The average substance abuse counselor earns $34,000 per year. Ninety-three percent report burnout. Annual turnover is 33 percent. HRSA projects shortages of 77,050 addiction counselors, 99,780 mental health counselors, and 99,840 psychologists by 2038.[^30] Peer recovery support specialists — approximately 31,000 certified nationally — show 20 percent improved retention and 25 percent reduced ED utilization[^31], but like the counselor workforce, they are paid by the same Medicaid rates that suppress wages across the system.
+
+## Naloxone, Harm Reduction, and the Federal War Against Both
+
+Community naloxone distribution reversed an estimated 200,000 overdoses annually by 2023.[^32] The FDA approved Narcan nasal spray over-the-counter in March 2023; standing orders are active in all fifty states. When distributed alongside fentanyl test strips — now decriminalized in 46 states — overdose deaths decrease by 25 to 30 percent. Syringe service programs reduce HIV and HCV transmission by 50 percent[^33] without increasing drug use, confirmed across thirty years of research.
+
+This infrastructure is being dismantled. The Trump administration modified SAMHSA State Opioid Response grant requirements in 2025, prohibiting SOR funds from supporting syringe service programs. Thirty-seven states lost harm reduction program eligibility.[^34] The DOGE-driven HHS restructuring eliminated thousands of positions, including significant SAMHSA staffing cuts; harm reduction grants were rescinded or defunded across hundreds of community organizations. SAMHSA functions were merged into broader HHS structures, creating oversight gaps. The communities most affected — Black and AIAN communities with the highest overdose mortality — are the same communities with the least access to pharmacy-based naloxone and the greatest dependence on the community-based distribution models being eliminated.
+
+## Incarceration: The Anti-Treatment
+
+Fewer than 5 percent of U.S. jails and prisons offered all three FDA-approved MOUD medications as of 2023.[^35] Incarceration eliminates opioid tolerance; release without MOUD continuation produces overdose risk 12 to 30 times the general population in the first two weeks. MAT continuity at release is associated with 50 percent reduced overdose mortality — but the system barely exists. For pregnant women in the carceral system, abrupt withdrawal is itself a medical emergency associated with spontaneous abortion and preterm labor. Black Americans are incarcerated at five times the White rate and are disproportionately denied MOUD.
+
+The 2024 implementation of final rules for 42 CFR Part 2 — the federal regulation providing stricter privacy protections for SUD treatment records than HIPAA — now enables patient-consented record sharing through health information exchanges. Advocates warned that in states where substance use in pregnancy is criminalized, treatment records become accessible to prosecutors. The privacy protection that once shielded treatment-seeking has been weakened at the precise moment the legal consequences of disclosure are expanding. Drug court data document individuals who die between arrest and treatment enrollment. For pregnant women, that gap is a mortality window during which two lives are at risk.
+
+## The Pipeline: From Substance Use to the Next Generation
+
+The structural harm from untreated substance use in pregnancy extends through a measurable intergenerational pipeline: substance use disorder → neonatal abstinence syndrome → CPS referral → family separation → ACE accumulation → elevated risk of the same outcomes in the next generation.
+
+Seventy-five percent of all foster care cases involve maternal substance use disorder.[^36] Children who are separated from their families experience that separation as an Adverse Childhood Experience — and the dose-response is quantified: four or more ACEs produce a preeclampsia odds ratio of 3.06, antenatal depression odds ratio of 1.59, and preterm birth odds ratio of 1.41.[^37] A child who enters foster care, moves through multiple placements, and experiences the bereavement of parental loss through incarceration is accumulating ACEs at a rate that epidemiological literature directly links to the pregnancy complications that will define their own reproductive outcomes. The cycle has been quantified at each step. The criminalization framework does not interrupt it — it accelerates it.
+
+## What the Trump Administration Is Doing
+
+The paradox at the center of this chapter: the system that treats substance use disorder is being defunded while the system that criminalizes it is expanding.
+
+In January 2026, $2 billion in SAMHSA grants were terminated overnight. They were reversed within 24 hours following bipartisan outcry — but the reversal was political, not principled. The signal was unambiguous: the administration is willing to eliminate the harm reduction architecture on which hundreds of thousands of pregnant and postpartum women depend. SAMHSA's proposed budget faced cuts exceeding $1 billion before congressional override.
+
+Treatment facilities are actively closing: OneFifteen in Ohio, the UCSD Intensive Outpatient Program, the only nonprofit addiction treatment center in Denton County, Texas, an all-women residential SUD facility in Minnesota. Each closure creates a treatment desert that may persist for years. Ninety percent of specialty addiction care is already concentrated in urban areas. In rural communities — where opioid prescribing was historically heaviest and overdose mortality is now highest — the closure of a single facility can eliminate access for an entire region. Meanwhile, over $50 billion in opioid litigation settlements[^38] from Purdue Pharma, Johnson & Johnson, McKesson, Cardinal Health, and AmerisourceBergen have begun distributing across 43 states — but evidence-based spending rates vary from 40 to 90 percent by state. In some jurisdictions, settlement money that could double MOUD treatment capacity is being diverted to general budgets. The money exists. The political will to spend it on the women dying does not.
+
+Meanwhile, the Medicaid work requirements in the One Big Beautiful Bill Act, effective January 2027, will strip coverage from millions of women of reproductive age — the same coverage that funds MAT through the SUPPORT Act. The Mental Health Parity and Addiction Equity Act's final enforcement rules, which took effect January 1, 2025, were paused in May 2025 after legal challenge — leaving commercial insurers free to maintain the non-quantitative treatment limitations that restrict SUD coverage. MAT coverage is Medicaid coverage. Parity enforcement is treatment access. Cut one, pause the other, and the treatment system contracts from both directions simultaneously — while states continue to expand the criminal apparatus that punishes women who cannot access treatment that no longer exists.
+
+
+## References
+
+[^1]: SAMHSA / ACOG (Labora Rounds: ID_NOT_FOUND)
+[^2]: JAMA / NIH (Labora Rounds: recU4P6e1wEU5DxNX)
+[^3]: JAMA / NIH (Labora Rounds: recptFi5eZPX27BR8)
+[^4]: CDC / DEA (Labora Rounds: recAqMzqueIQv837z)
+[^5]: Philadelphia Department of Public Health (Labora Rounds: recvFbcVTTUTBfYo3)
+[^6]: Nemours Children's Health / Medical Genetics (Labora Rounds: recSGfit2fRqeKaEJ)
+[^7]: CDC/NCHS (Labora Rounds: recAAEY29weRQy5hL)
+[^8]: CDC/NCHS (Labora Rounds: recAAEY29weRQy5hL)
+[^9]: SAMHSA/NIDA (Labora Rounds: rec0ofoqeDPgLpC0d)
+[^10]: CDC / NIDA (Labora Rounds: recPQaP11Pp05cct9)
+[^11]: SAMHSA NSDUH (Labora Rounds: recxUVi0rvamrsBzO)
+[^12]: CDC / MMWR (Labora Rounds: recKcsj7omL9ttAZe)
+[^13]: ACOG / SAMHSA (Labora Rounds: recnoCWsDDYqYpH7L)
+[^14]: HCUP / State Data (Labora Rounds: recWRDC8mNG34PhqT)
+[^15]: CDC / HCUP (Labora Rounds: ID_NOT_FOUND)
+[^16]: Medicaid Data / HCUP (Labora Rounds: recpw1kCUCBDtI6Aa)
+[^17]: Pregnancy Justice (Labora Rounds: recKPXQ60wZF1scfI)
+[^18]: JAMA Network Open (Labora Rounds: rechDY5lU7uwFRGTy)
+[^19]: Pregnancy Justice (Labora Rounds: recg3fU3UMXxL9KKn)
+[^20]: Pregnancy Justice (Labora Rounds: recfvGG1pkoxVqV23)
+[^21]: Guttmacher Institute (Labora Rounds: reczg1HEhXbedvZk0)
+[^22]: ACOG / NIH (Labora Rounds: reciUHKSxaXtVeQ7t)
+[^23]: SAMHSA NSDUH (Labora Rounds: recEmQEiT84dqPkNg)
+[^24]: Healio / Addiction Journal (Labora Rounds: recvFzZlF9AaFNe7M)
+[^25]: JAMA / RAND / KFF (Labora Rounds: recyqC4Q79o5PEiIf)
+[^26]: SAMHSA (Labora Rounds: rec6yGlWGWMggRZTO)
+[^27]: March of Dimes / SAMHSA (Labora Rounds: recGmDdrGmrHsyfng)
+[^28]: HRSA / PCSS (Labora Rounds: recvcnwqJmowlySf2)
+[^29]: HRSA (Labora Rounds: recmBClZXD8pBxStB)
+[^30]: HRSA NCHWA (Labora Rounds: rec1HaZxN1ONULR7P)
+[^31]: SAMHSA / Recovery Research Institute (Labora Rounds: recrvcEIbhW0JEdzv)
+[^32]: CDC / Harm Reduction Coalition (Labora Rounds: recXikEazyVBYYb9W)
+[^33]: CDC (Labora Rounds: recpBfUYZL3NdnRsF)
+[^34]: SAMHSA Grants Data (Labora Rounds: recRtYhAHe2cZlOmp)
+[^35]: JAMA Psychiatry (Labora Rounds: recZCtIMkiHp1sMeZ)
+[^36]: Child Welfare Information Gateway (Labora Rounds: recoFJNS8DS1NXI43)
+[^37]: NIH / BMJ (Labora Rounds: recgrXk29o0NiT43j)
+[^38]: KFF / Opioid Settlement Tracker (Labora Rounds: recK3HXVKdoCnIvv7)
+[^39]: HCUP / AHRQ (Labora Rounds: rec5UU8cAvYKyyJRq)

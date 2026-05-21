@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Architecture of Harm — Book Versions</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+    :root {
+        --bg: #0a0a0c;
+        --card: #18181b;
+        --text: #e4e4e7;
+        --gold: #cba871;
+        --muted: #a1a1aa;
+    }
+    body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+    }
+    .container {
+        max-width: 800px;
+        text-align: center;
+    }
+    h1 {
+        font-family: 'Playfair Display', serif;
+        color: var(--gold);
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    p.subtitle {
+        color: var(--muted);
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+        line-height: 1.5;
+    }
+    .cards {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card {
+        background: var(--card);
+        border: 1px solid #333;
+        border-radius: 8px;
+        padding: 40px 30px;
+        width: 300px;
+        text-align: left;
+        transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        border-color: var(--gold);
+    }
+    .card h2 {
+        font-family: 'Playfair Display', serif;
+        color: #fff;
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+    .card p {
+        color: var(--muted);
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    .card a {
+        display: inline-block;
+        background: var(--gold);
+        color: var(--bg);
+        padding: 10px 20px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: opacity 0.2s;
+    }
+    .card a:hover {
+        opacity: 0.9;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>The Architecture of Harm</h1>
+        <p class="subtitle">The State of Women's and Children's Health in the United States<br>First Edition — 2026</p>
+        
+        <div class="cards">
+            <div class="card">
+                <h2>Version 1.0 (Original)</h2>
+                <p>The original chapter drafts detailing the Manufactured Healthcare Crisis, completed prior to the deep-data injection pass.</p>
+                <a href="v1_book.html">Read V1 Book →</a>
+            </div>
+            
+            <div class="card">
+                <h2>Version 2.0 (Updated)</h2>
+                <p>The expanded flagship manuscript updated with 2025/2026 recency data, integrated statistics, and deepened analysis.</p>
+                <a href="v2_book.html">Read V2 Book →</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

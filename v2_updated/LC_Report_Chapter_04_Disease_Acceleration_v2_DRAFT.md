@@ -1,0 +1,167 @@
+# Chapter 4: Disease Acceleration — What Is Surging While No One Watches
+
+*The epidemics accelerating inside the infrastructure collapse.*
+
+---
+
+It is a long weekend on call—sick mother after sick mother, sick baby after sick baby. It is the kind of shift where the stress builds a strange camaraderie among the staff, because everyone is running and everyone knows it. In a rare quiet moment between emergencies, I talk with the neonatal nurse practitioner. She has worked for years in the border communities where Texas meets Mexico, and what she describes is a parade of anencephalic babies.
+
+Anencephaly is a fatal neural tube defect. When the neural tube fails to close in early pregnancy, the baby is born without a cortex—without the architecture of thought, language, or anything we would call consciousness. The baby has a brainstem and a spinal cord. It has reflexes. It looks like a baby. It might live for a day, sometimes longer, but there is no possibility of a life. What is left is a mother, caring for and loving a child she knows is doomed.
+
+All of the mothers she saw were migrant farm workers. All of them had been constantly exposed to agricultural pesticides—chemicals sprayed to increase crop yield, chemicals whose teratogenic effects on human pregnancy were known but never disclosed to the women working the fields. The regulatory tightening of the EPA in the intervening years produced measurable improvement, but now, as the federal government moves to dismantle those same environmental protections, the threat returns. "What we are really talking about," I tell her, "is moms coming in with anencephalic babies, and all the other horrible congenital anomalies that come with an unregulated environment."
+
+The consequences of failing health infrastructure compound the biology. That same weekend, a premature infant requires emergency delivery at a facility with no in-house neonatologist. I need to give the mother betamethasone—the standard steroid injection that accelerates fetal lung maturity and protects the premature brain and gut from bleeding. Without it, a micro-preemie's odds of survival collapse. But I can't give it to her. Her diabetes is so wildly uncontrolled that administering the high-dose steroid would spike her blood sugar into diabetic ketoacidosis, rendering her clinically unstable and threatening both their lives. 
+
+Because her primary care failed to manage her diabetes, she cannot receive the obstetric medicine that would save her premature baby. The facility is not equipped for a neonate this small. The team waits, nervously, hoping her labor arrests before we are forced to deliver a baby we cannot keep alive.
+
+"They have set millions of small little bombs," I say later, thinking of the gutted environmental regulations, the collapsing primary care, and the closing hospitals. "And they are going to go off well into the future."
+
+---
+
+The systems designed to detect, track, and contain disease among women and children have been eliminated. The diseases have not stopped. They are accelerating.
+
+## Congenital Syphilis: A Preventable Epidemic Killing Babies
+
+In 2012, there were 335 cases of congenital syphilis in the United States. By 2015: 495. By 2021: 2,865. By 2022: 3,761. By 2023: 3,882. By 2024: approximately 4,000.[^1] That is twelve consecutive years of increase — a 937% increase since 2012. It is the highest rate since the 1950s. In 2022 alone, 282 infants died of congenital syphilis.[^2] Among young women, rates have increased 209% since 2018.
+
+Every single one of those deaths was preventable. Congenital syphilis is prevented with one penicillin shot — Bicillin L-A — administered during pregnancy. One shot. That is the entire intervention.
+
+In July 2025, Pfizer voluntarily recalled Bicillin L-A due to particulates. The precise timeline: Pfizer issued the voluntary recall July 10, 2025. The FDA issued a formal Drug Shortage Alert July 14, 2025 — four days later. The drug had already been in shortage since April 2023, making the recall a crisis layered on top of a pre-existing crisis. In response, the FDA authorized two foreign-manufactured alternatives: Extencilline (Belgium) and Lentocilin (Spain). Combined, these imports cover 5-10% of U.S. demand. That is not a solution. That is a rounding error against a 937% epidemic. For non-pregnant patients, doxycycline is available as a fallback — it is contraindicated in pregnancy, meaning it cannot be used for the patients at highest risk. The FDA projects the Bicillin supply recovery is not expected until Q4 2027.[^3] The pediatric syringe shortage — a separate but compounding supply chain failure affecting neonatal treatment capacity — is not expected to resolve until Q4 2026. The CDC issued Priority Tiers Guidance on December 20, 2025, attempting to ration available Bicillin supply. The guidance creates a clinical hierarchy: pregnant women at the top, then infants with active infection, then everyone else. The hierarchy is appropriate. The supply is not adequate to meet even the top-tier demand. Women who are pregnant and have syphilis right now have no reliable access to the one drug that would prevent their babies from being born infected, blind, or dead.
+
+The racial stratification of this epidemic is staggering. According to CDC surveillance data, the congenital syphilis rate among American Indian and Alaska Native communities reached 681 per 100,000 live births — approximately 100 times the rate among white populations.[^4] In South Dakota, one in 42 AI/AN births is affected. The rate among Black women tripled between 2016 and 2020, from 46.7 to 134.9 per 100,000. Among Hispanic women, it rose 3.5-fold in the same period, from 20.6 to 71.9 per 100,000. Maternal syphilis itself rose 28 percent between 2022 and 2024, accelerating even as the treatment pipeline collapsed.
+
+The federal response: the CDC STI surveillance infrastructure was eliminated. The team tracking outbreak geography was fired. The 8-person CDC STI committee was dissolved. No emergency Bicillin stockpile was established. Nobody is mapping which clinics have Bicillin and which do not. The epidemic is accelerating, and the people whose job it was to track it have been fired. A 44% CDC budget cut was proposed on top of this.
+
+This is what infrastructure failure looks like in clinical practice: a completely preventable disease surging to levels not seen in three decades, while the treatment is in shortage and the systems designed to contain it are being dismantled simultaneously.
+
+## STI Surveillance Destruction: Going Blind by Design
+
+The syphilis crisis is not an isolated breakdown. It is the leading edge of a broader STI surveillance collapse that the federal government is engineering in real time.
+
+HHS defunded the CDC's STI prevention education media campaign in 2025 and eliminated the Plain Language Health Communication office, cutting an estimated 14 million adults per year from accurate sexual health messaging.[^5] The CDC's Division of Adolescent and School Health — DASH — had its budget slashed by 68 percent. These were the programs that translated clinical data into public awareness. Without them, the space between a new outbreak and public recognition of that outbreak stretches from weeks to months to never.
+
+The communication vacuum is being filled. An analysis of the top 100 TikTok contraception videos — representing approximately five billion cumulative views — found that the majority were created by non-medical influencers, over half rejected hormonal birth control, and one-third expressed explicit distrust of healthcare providers.[^6] This is not a gap in messaging. It is a replacement of evidence-based public health by algorithm-amplified pseudoscience, and it is happening at precisely the moment when federal capacity to counter it has been eliminated.
+
+The knowledge deficit runs deeper than social media. A survey of 1,000 women found that 56 percent say school sex education failed to prepare them for adult reproductive health — a finding that held consistent across three generational cohorts spanning 25 years, indicating zero improvement.[^7] Meanwhile, federal abstinence-only-until-marriage programs continue to receive $110 million annually despite zero of eleven rigorous evaluations finding a significant impact on delaying sexual initiation. The result is quantifiable: teen birth rates in abstinence-only states run 2-3 times higher than in states mandating comprehensive sex education — 28.5 per 1,000 versus 12.1.[^8] AI/AN adolescents have the highest teen birth rate of any racial group at 30.4 per 1,000 and the highest adolescent STI rates, yet tribal schools under Bureau of Indian Education jurisdiction are excluded from state sex education mandates entirely.
+
+The gag rules compound the knowledge crisis. During the 2019-2021 Title X Protect Life Rule, 1.6 million patients lost access to full-options reproductive health counseling.[^9] The network never fully recovered. Now, 47 percent of OB/GYNs in abortion-ban states report self-censoring reproductive health counseling due to fear of criminal prosecution, and 31 percent have withheld information about out-of-state options.[^10] The patients who need the most information are the ones least likely to receive it.
+
+## Childhood Vaccination: Below Herd Immunity
+
+MMR vaccination rates among kindergartners fell from 94.7% to 92.5% nationally. The herd immunity threshold for measles is 95%. The United States is now below it.[^11] The CDC team tracking outbreak geography by school district has been eliminated.
+
+The full vaccination picture among kindergartners, 2024-2025 school year:
+
+| Vaccine | Coverage Rate | Herd Immunity Threshold |
+|---|---|---|
+| MMR | 92.5% | 95% |
+| DTaP (diphtheria, tetanus, pertussis) | 92.1% | 92-95% |
+| Polio | 93.1% | 80-85% |
+| Varicella | 92.6% | 85-90% |
+
+Medical exemption rate: 0.2%. Non-medical exemption rate: 3.4%. Total exemption rate: 3.6% — the highest ever recorded in the United States.[^12] Seventeen states now have exemption rates exceeding 5%, a threshold at which herd immunity becomes mathematically impossible in those geographies regardless of performance elsewhere. Thirty-nine states have MMR coverage below 95% — up from 28 states the prior year. Approximately 286,000 kindergartners entered school unvaccinated against measles in the 2024-2025 school year. These are not distributional anomalies. These are geographic clusters: concentrated in communities with active vaccine hesitancy movements, in states where non-medical exemptions are easy to obtain, in the same geographies where public health infrastructure has been most aggressively defunded. The exemption geography itself tells the story: Idaho exceeds a 15 percent kindergarten vaccine exemption rate while California maintains 0.1 percent[^13] — states that eliminated nonmedical exemptions show declining rates and stable coverage, while states expanding exemption access watch rates climb toward outbreak thresholds.
+
+The consequence: measles resurgence reached its highest level since 1992 in the first half of 2025. Measles was declared eliminated in the United States in 2000. The elimination is now functionally reversed in multiple localities. Pertussis outbreaks have also increased in states with the highest non-medical exemption concentrations.
+
+HHS Secretary RFK Jr. dismissed 17 standing members of the CDC's Advisory Committee on Immunization Practices. ACOG — the American College of Obstetricians and Gynecologists — formally withdrew from the CDC's vaccine advisory process because the committee's scientific integrity was compromised. Fifteen states sued the administration. For the first time in a generation, the nation's leading obstetric professional organization told its members to disregard the CDC's vaccine guidance and follow ACOG's independent recommendations instead. RSV immunization recommendations have been narrowed. Hepatitis B universal vaccination recommendations have been weakened. Obstetricians must now navigate conflicting federal CDC guidelines versus ACOG's independent, evidence-based vaccine schedules.[^14]
+
+## HPV Vaccination and Cervical Cancer: A Prevention Pipeline in Collapse
+
+HPV vaccination rates are not merely falling — they have stalled. According to the CDC's National Immunization Survey, the HPV vaccine series completion rate has flatlined at 62.9 percent for three consecutive years, a full 17 points below the Healthy People 2030 target of 80 percent.[^15] While 78.2 percent of adolescents have received at least one dose, an 11-percentage-point gap between rural and metropolitan areas means that series completion — the marker of actual protection — remains stubbornly low in precisely the communities with the least access to cancer screening.
+
+The HPV vaccine prevents the infections responsible for approximately 90 percent of cervical cancers. A stall in vaccination is not a neutral statistic. It is a future cancer cohort being assembled in real time. Modeling studies project a 60-to-80 percent reduction in cervical cancer incidence in vaccinated cohorts, but those projections assume completion rates that the country is nowhere close to achieving. Rural areas show only 52.1 percent series completion. The lowest-income quartile reaches only 57.3 percent.
+
+Then HHS Secretary Kennedy moved HPV from routine to "shared decision-making" on the childhood schedule — a bureaucratic euphemism for removing the strongest driver of uptake. Provider recommendation is the single most powerful predictor of HPV vaccination: 77-86 percent of adolescents receive the vaccine when a provider recommends it, versus 57-68 percent without. Moving HPV out of the routine schedule weakens that recommendation and gives hesitant parents an institutional permission structure to decline. A federal judge blocked the schedule changes in March 2026, and the CDC restored prior recommendations by May 2026. But the damage to public confidence in the vaccine schedule is not reversed by a court order.
+
+The cervical cancer screening gap created by the pandemic is now producing invasive carcinomas — Stage 2B — in women aged 30 to 35. These are cancers that would have been caught as pre-cancers through routine screening. These women will now need chemotherapy and radiation instead of a simple outpatient procedure. Hispanic and Latina women carry the highest cervical cancer incidence rate in the country at 9.4 per 100,000 — higher than Black women at 7.9 and white women at 7.5 — driven by lower HPV vaccination and screening rates.[^16] According to SEER data, Black women die from cervical cancer at a 65 percent higher rate than white women. When corrected for hysterectomy prevalence — which removes the at-risk organ and deflates the apparent rate — the true disparity doubles: 10.1 per 100,000 for Black women versus 4.7 for white women. Immigrant women face screening rates 40-60 percent lower than U.S.-born women, with late-stage cervical cancer diagnoses running 2-3 times higher.
+
+One genuine breakthrough arrived in the middle of this collapse. The USPSTF endorsed HPV self-collection for cervical cancer screening — the first major guideline shift to remove the pelvic exam barrier for women aged 30-65. The at-home Teal Wand, approved in May 2025 with a 96 percent accuracy rate for identifying cervical precancer, could close the screening gap for rural, immigrant, and underserved communities.[^17] The technology exists. The screening pipeline to deliver it — the public health infrastructure to distribute self-collection kits, the insurance coverage to pay for them, the follow-up system to act on results — does not.
+
+## Cancer Screening and Treatment: Structural Collapse
+
+The cervical cancer crisis is only one dimension of a broader cancer screening collapse affecting women. Rural populations experience significant delays in breast cancer screening as hospital and imaging center closures eliminate access to mammography. Rural women have 15-20 percent lower mammography utilization and higher late-stage breast cancer diagnosis rates. Late-stage breast cancer is 12-18 percent more common in rural versus urban women, translating to a 3-5 percentage point gap in five-year survival attributable to stage at diagnosis alone.
+
+According to the American Cancer Society, Black women face 40 percent higher breast cancer mortality despite similar incidence rates — a disparity driven by delays in diagnosis, unequal access to targeted therapies, and structural racism in care delivery.[^18] Under age 50, Black women die from breast cancer at twice the rate of white women. The USPSTF's 2024 updated mammography guideline — recommending screening starting at age 40 for all average-risk women — was partly motivated by this biology: Black women develop breast cancer approximately eight years earlier on average, and the prior guidance starting at 50 disproportionately disadvantaged them during the critical 40-49 window.
+
+Endometrial cancer incidence has risen 1-2 percent annually for a decade, with approximately 67,880 new cases expected in 2024, making it the most common gynecologic cancer in the country. Black women die from endometrial cancer at nearly twice the rate of white women — 8.5 versus 4.3 per 100,000 — and the racial mortality gap has not narrowed over the past decade despite new therapies. The disparity is driven by higher prevalence of aggressive type II histology in Black women, later-stage diagnosis, and the fact that Black women are 22 percent less likely to receive guideline-concordant treatment.[^19]
+
+Only about 1,400 fellowship-trained gynecologic oncologists serve 161 million American women, and approximately 40 percent of U.S. counties have none within 50 miles.[^20] The geographic concentration of specialists in urban academic centers creates oncology deserts that compound every racial and economic disparity in screening and treatment.
+
+The drug shortage crisis extends directly into cancer care. In June 2023, 93 percent of National Comprehensive Cancer Network centers reported carboplatin shortage after a single foreign manufacturing facility quality failure cascaded through the domestic supply chain. By June 2024, 89 percent of U.S. cancer centers remained in shortage of at least one systemic therapy — a structural shortage, not an incident.[^21] Women with cervical, ovarian, and endometrial cancers who require platinum-based chemotherapy face treatment delays or substitutions with less effective regimens.
+
+## Drug Shortages Beyond Syphilis
+
+The Bicillin shortage is part of a broader pattern. Approximately 140 drugs are in ongoing shortage.[^22] China supplies more than 60% of the antibiotic active ingredients used in the United States. The supply chain is fragile, and the FDA responsible for drug supply monitoring is itself facing budget cuts. IV fluids experienced a major shortage beginning October 2024. The first new oral antibiotic class for gonorrhea in over thirty years — gepotidacin — was approved in early 2025, arriving just as the STI surveillance infrastructure was being destroyed.
+
+## SIDS Reversal
+
+SIDS and sleep-related infant deaths had been declining for decades. In 2025, the trend reversed — a 12% increase — after the Safe to Sleep program was eliminated in April 2025. A public education program that cost very little, saved lives, had three decades of decline to show for it, and was cut. The 12% increase is the direct consequence.[^23]
+
+## Infant and Child Health
+
+The Medicaid unwinding disenrolled 25 million people between 2023 and 2024. 69% of those disenrollments were for paperwork reasons — not ineligibility. People lost their health coverage because of administrative processing failures. 4.6 million children lost Medicaid coverage. Child labor violations have increased 88% since 2019, with 5,792 children documented in illegal labor situations in 2023. Pediatric mental health emergency department visits are up 24-31% and have remained at that elevated level since the pandemic.
+
+## Neonatal Abstinence Syndrome: The Geographic Epidemic
+
+Neonatal Abstinence Syndrome (NAS) — the withdrawal syndrome affecting newborns exposed to opioids in utero — has become one of the most geographically concentrated pediatric emergencies in the country. The national NAS rate increased approximately 500% between 2004 and 2016. By 2021, approximately 1 in every 14 NICU admissions was for NAS or neonatal opioid withdrawal syndrome. Among AI/AN communities, the NAS rate rose 153 percent in seven years, reaching 17.0 per 1,000 births by 2017[^26] — driven by the compounded effect of treatment desert geography, Indian Health Service capacity constraints, and supply contamination.
+
+The geographic concentration mirrors the opioid crisis itself. West Virginia, Kentucky, Tennessee, and rural Appalachia have NAS rates 5-10 times the national average. In some rural hospitals in these states, NAS babies constitute 15-20% of all births. Each NAS hospitalization costs $20,000-$45,000 on average, and Medicaid pays for approximately 80% of them. The states with the highest NAS rates are among those proposing the deepest Medicaid cuts. A NAS baby requires specialized care — gradual weaning, NICU monitoring, developmental follow-up — in hospitals that are simultaneously closing their maternity units. The geographic overlap between NAS hotspots and maternity care deserts is nearly total.
+
+The SAMHSA grant terminations ($2 billion) specifically targeted the community-based addiction treatment programs that were the primary intervention point for pregnant women with opioid use disorder. Medication-assisted treatment (MAT) with buprenorphine during pregnancy reduces NAS severity and improves neonatal outcomes. But the treatment programs are closing, and the states with the worst NAS rates are the ones criminalizing substance use during pregnancy — driving pregnant women away from the care that would protect their babies. The racial paradox is sharp: white women on Medicaid have the highest opioid use disorder prevalence at 5.5 percent, compared to 1.1 percent among Black women and 0.6 percent among Hispanic women. Yet Black women bear 18.2 percent of pregnancy-related arrests while comprising 13 percent of the population — differential surveillance and criminalization operating independently of actual substance use rates.
+
+## Fentanyl Birth Defect Syndrome: An Emerging Crisis
+
+An emerging body of clinical evidence — primarily case series and observational cohort data from NICUs in high-fentanyl-prevalence regions — documents a pattern of birth defects and developmental anomalies in infants exposed to illicit fentanyl (and particularly fentanyl-xylazine combinations) during pregnancy. This is distinct from NAS. While NAS is a withdrawal syndrome, these are structural and neurological anomalies observed at birth.
+
+Reported findings include microcephaly, limb anomalies, cardiac defects, and severe neurological impairment in fentanyl-exposed cohorts at rates exceeding background population prevalence. The xylazine ("tranq") component — a veterinary sedative now present in an estimated 23% of the illicit fentanyl supply[^27] — is associated with severe tissue necrosis in adults and its teratogenic potential in humans is essentially unstudied. There are no FDA pregnancy safety data on xylazine exposure because it was never intended for human use.
+
+The research infrastructure that would study this systematically — birth defects registries, CDC pregnancy surveillance, NIMHD-funded cohort studies of exposed populations — has been eliminated. The National Birth Defects Prevention Network has been defunded. The fetal tissue research grants that would study placental transfer mechanisms were terminated. We are witnessing the emergence of a potentially new teratogenic syndrome and simultaneously destroying the capacity to study it.
+
+## The Research Infrastructure That Would Track All of This: Dismantled
+
+Every disease acceleration documented in this chapter is compounded by a parallel destruction of the research and surveillance capacity that would measure it, study it, and inform the response.
+
+The DOGE-directed CDC workforce reductions eliminated approximately 2,400 staff, disproportionately affecting the Division of Reproductive Health and the Division of Vital Statistics — the units responsible for maternal mortality surveillance, infant mortality tracking, and reproductive health data collection.[^28] The PRAMS system — the Pregnancy Risk Assessment Monitoring System, which the CDC credits with helping reduce infant mortality from 10 per 1,000 live births in 1987 to 5.5 by 2022 — covered 81 percent of U.S. live births before the cuts. It surveyed approximately 3,000 women per state per year across 300 questions on prenatal care, lived experience, and birth outcomes. That system is now compromised.
+
+At NIH, 977 grants worth approximately $1.7 billion were terminated under executive order directives.[^29] The National Institute on Minority Health and Health Disparities — the only NIH institute whose entire mandate is studying racial and ethnic health disparities — saw its competitive grants reduced by 61 percent, losing 77 grants and $223.5 million. The NCI faces budget cuts of $350-450 million, halting or disrupting 45 or more active cancer disparities studies. Executive orders have suspended or terminated race and ethnicity data collection in 27 or more active gynecologic cancer trials — making it structurally impossible to detect racial disparities in treatment outcomes for the cohorts enrolled during this period.
+
+Both the Office of Health Equity and the Office of Minority Health were eliminated. The CDC's "Racism and Health" page — established under Director Walensky's 2021 declaration that racism is a serious public health threat — was removed from the federal website. Morehouse School of Medicine, a historically Black institution, had a $2.96 million federal grant for a research center focused on Black pregnant and postpartum women's health terminated.[^30] HHS instructed federal grant applicants to remove the word "Black" from approximately 200 banned words and phrases in applications. The Black Maternal Health Momnibus Act was reintroduced in 2025 without "Black" in its title; the word appears only once in the entire latest legislative package. Advocates describe Black women as being erased from the policy that was written for them.[^31]
+
+The diseases documented in this chapter — syphilis, measles, cervical cancer, breast cancer, endometrial cancer, NAS, fentanyl birth defects — are accelerating. The systems that would track them are being destroyed. The research that would study them is being defunded. The words to name the populations most affected are being banned. This is not neglect. This is the architecture of not knowing.
+
+---
+
+
+
+## References
+[^1]: CDC National Center for HIV, Viral Hepatitis, STD, and TB Prevention (Labora Rounds: rec1JDEy6NehUr05P)
+[^2]: CDC Division of STD Prevention (Labora Rounds: recZXY282babiesdead)
+[^3]: CDC / FDA Drug Shortage Database (Labora Rounds: recAYEOZwcyf8K80W)
+[^4]: CDC STI Surveillance (Labora Rounds: rec3y4uAGWgHaRm8E)
+[^5]: KFF; STAT News; Congressional Budget Office analysis (Labora Rounds: rec7RbeNa4avXMY74)
+[^6]: CCDH; Brown University School of Public Health (Labora Rounds: recAkEismLYVtJSQQ)
+[^7]: Health literacy crisis survey (Labora Rounds: rec92lFKfHyLXySYq)
+[^8]: National center for health statistics teen birth rates (Labora Rounds: rec7CwXuaUttZIUqi)
+[^9]: Title X Protect Life Rule analysis (Labora Rounds: recBcVzbyHYBBqi5t)
+[^10]: Survey of OB/GYN Practice Patterns 2025; Physicians for Reproductive Health (Labora Rounds: rec4jOpOl4UmuDHKb)
+[^11]: CDC MMWR / Kindergarten vaccination coverage (Labora Rounds: recCsLWUzPOs62iWM)
+[^12]: CDC MMWR / Kindergarten exemption rates (Labora Rounds: rec6qNhC8AoZ4wRHQ)
+[^13]: KFF / CDC MMWR / USAFacts (Labora Rounds: rec0Fk0iey3gVjpsB)
+[^14]: Federal court records; CDC ACIP updates (Labora Rounds: rec0zhgiSDXV48KjI)
+[^15]: CDC National Center for Immunization and Respiratory Diseases (NIS-Teen) (Labora Rounds: rec4A7RP21C2GbbvV)
+[^16]: SEER Cancer Statistics Review; American Cancer Society (Labora Rounds: rec5JTGDxXnNKqxkK)
+[^17]: USPSTF recommendations (Labora Rounds: recJPDQtfakGMnduq)
+[^18]: American Cancer Society / Breast Cancer Facts & Figures (Labora Rounds: reckuoqjZ4oSfQeiC)
+[^19]: NCI SEER Database / Endometrial Cancer (Labora Rounds: recC7TLI9xCD32SQL)
+[^20]: SGO Workforce Report (Labora Rounds: recoe5XMrSWB7k6jd)
+[^21]: National Comprehensive Cancer Network (NCCN) (Labora Rounds: rec1HaZxN1ONULR7P)
+[^22]: FDA Drug Shortage Database (Labora Rounds: rec140drugs)
+[^23]: CDC Infant Mortality and SIDS Data (Labora Rounds: recD3jr4PIG7oPMp1)
+[^24]: KFF; Georgetown Center for Children and Families (Labora Rounds: recAQH5ADC3dEQt0D)
+[^25]: CMS Medicaid Unwinding Data (Labora Rounds: rec7hnZWAshPSVpIU)
+[^26]: HRSA RCORP-NAS Program (Labora Rounds: rec7GoGwRN8hmb8YQ)
+[^27]: NIH NIDA Fentanyl-Xylazine Data (Labora Rounds: rec1CO8DlmddqzHbQ)
+[^28]: DOGE-directed CDC workforce reductions (Labora Rounds: recoe0hoWjDJMltwY)
+[^29]: NIH Grant Terminations / Trump Executive Orders (Labora Rounds: recPjgRpQzK3ChnDA)
+[^30]: HHS Grant Terminations / Morehouse School of Medicine (Labora Rounds: recY9AX4xfZSu5Od9)
+[^31]: Black Maternal Health Momnibus Act 2025 (Labora Rounds: rec082ssUO4417Bcs)
