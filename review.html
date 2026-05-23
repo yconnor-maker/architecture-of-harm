@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QC Review — The Architecture of Harm</title>
+<meta name="description" content="Chapter-by-chapter QC review for The Architecture of Harm: The State of Women's and Children's Health in the United States.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0d0f12;--card:#151820;--card-h:#1a1f2a;--input:#1c2130;--border:rgba(200,169,110,.12);--bfocus:rgba(200,169,110,.4);--gold:#c8a96e;--golds:rgba(200,169,110,.08);--green:#6bc87a;--greens:rgba(107,200,122,.1);--amber:#e8c84a;--ambers:rgba(232,200,74,.08);--rose:#d4736c;--roses:rgba(212,115,108,.08);--teal:#6bb8a8;--teals:rgba(107,184,168,.08);--purple:#9b8ec4;--text:#f0ebe4;--t2:rgba(240,235,228,.55);--t3:rgba(240,235,228,.35);--r:10px;--rl:16px;--fd:'Cormorant Garamond',Georgia,serif;--fb:'DM Sans',-apple-system,sans-serif}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:var(--fb);background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;gap:16px;padding:14px 28px;background:rgba(13,15,18,.88);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}.nav-brand{font-family:var(--fd);font-size:18px;font-weight:700;color:var(--gold);text-decoration:none;white-space:nowrap}.nav-mid{display:flex;align-items:center;gap:10px;font-size:12px;color:var(--t2);margin-left:auto}.pbar{width:180px;height:4px;background:var(--card);border-radius:4px;overflow:hidden}.pfill{height:100%;border-radius:4px;transition:width .4s}.nav-btns{display:flex;gap:8px}.nb{padding:7px 14px;border-radius:8px;border:1px solid var(--border);background:0;color:var(--t2);font-size:12px;font-family:var(--fb);cursor:pointer;transition:all .2s}.nb:hover{background:var(--golds);color:var(--gold);border-color:var(--gold)}.nb-p{background:var(--gold);color:var(--bg);border-color:var(--gold);font-weight:600}.nb-p:hover{background:#d4b87a}
+.hero{padding:120px 28px 50px;max-width:860px;margin:0 auto}.badge{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:3px;margin-bottom:16px}.hero h1{font-family:var(--fd);font-size:clamp(1.8rem,4.5vw,2.5rem);line-height:1.15;margin-bottom:12px}.hero p{font-size:15px;color:var(--t2);line-height:1.7;max-width:660px}.reviewer-row{display:flex;align-items:center;gap:10px;margin-top:20px}.reviewer-row label{font-size:12px;color:var(--t3);text-transform:uppercase;letter-spacing:1.5px}.reviewer-row input{background:var(--input);border:1px solid var(--border);border-radius:6px;padding:6px 12px;color:var(--text);font-family:var(--fb);font-size:13px;width:200px}.reviewer-row input:focus{outline:none;border-color:var(--bfocus)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:10px;margin-top:24px;max-width:660px}.stat{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:14px;text-align:center}.stat-n{font-family:var(--fd);font-size:24px}.stat-l{font-size:11px;color:var(--t3);text-transform:uppercase;letter-spacing:1px;margin-top:2px}
+.sec{max-width:860px;margin:0 auto;padding:0 28px 40px}.sec h2{font-family:var(--fd);font-size:24px;margin-bottom:6px}.sec-d{font-size:14px;color:var(--t2);line-height:1.6;margin-bottom:24px}
+.how{background:rgba(21,24,32,.8);border:1px solid var(--border);border-radius:var(--rl);padding:24px;margin-bottom:32px}.how h3{font-size:14px;color:var(--gold);margin-bottom:10px}.how ol{padding-left:18px;color:var(--t2);font-size:13px;line-height:1.9}.how strong{color:var(--text)}
+.gh{display:flex;align-items:center;gap:10px;margin:32px 0 16px;padding-bottom:8px;border-bottom:1px solid var(--border)}.gb{padding:3px 10px;border-radius:20px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px}
+.pc{background:var(--card);border:1px solid var(--border);border-radius:var(--rl);margin-bottom:12px;overflow:hidden;transition:all .2s}.pc:hover{border-color:var(--bfocus)}.pc.pass{border-left:3px solid var(--green)}.pc.issues{border-left:3px solid var(--amber)}.pc.fail{border-left:3px solid var(--rose)}
+.ph{display:flex;justify-content:space-between;align-items:flex-start;padding:18px 22px;cursor:pointer;user-select:none}.ph:hover{background:var(--card-h)}.ph-l{flex:1}.pn{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--t3);margin-bottom:2px}.pt{font-family:var(--fd);font-size:17px;margin-bottom:3px}.ps{font-size:12px;color:var(--t2);line-height:1.5;max-width:550px}.ptog{font-size:16px;color:var(--t3);transition:transform .3s;flex-shrink:0;margin-left:10px;margin-top:2px}.pc.open .ptog{transform:rotate(180deg)}.vbadge{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:4px;margin-left:8px;vertical-align:middle}
+.pb{display:none;padding:0 22px 22px;border-top:1px solid var(--border)}.pc.open .pb{display:block}
+.olink{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:600;color:var(--gold);text-decoration:none;padding:7px 12px;border-radius:8px;border:1px solid var(--border);transition:all .2s;margin:12px 0 16px}.olink:hover{background:var(--golds);border-color:var(--gold)}
+.qc-section{margin-bottom:16px}.qc-cat{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2px;margin-bottom:8px;display:flex;align-items:center;gap:6px}.qc-cat-dot{width:8px;height:8px;border-radius:50%;display:inline-block}.qc-item{display:flex;align-items:flex-start;gap:8px;padding:6px 0;border-bottom:1px solid rgba(255,255,255,.03)}.qc-item:last-child{border-bottom:none}.qc-cb{appearance:none;-webkit-appearance:none;width:18px;height:18px;border:2px solid var(--border);border-radius:4px;cursor:pointer;flex-shrink:0;margin-top:1px;transition:all .15s;position:relative}.qc-cb:checked{background:var(--green);border-color:var(--green)}.qc-cb:checked::after{content:'✓';position:absolute;top:-1px;left:2px;font-size:12px;color:#fff;font-weight:700}.qc-cb:hover{border-color:var(--t2)}.qc-label{font-size:13px;color:var(--t2);cursor:pointer;line-height:1.4}.qc-label.checked{color:var(--t3);text-decoration:line-through}
+.verdict{margin:16px 0;display:flex;flex-wrap:wrap;gap:8px}.vb{padding:9px 16px;border-radius:8px;border:1px solid var(--border);background:0;font-size:12px;font-family:var(--fb);cursor:pointer;transition:all .2s;display:flex;align-items:center;gap:5px}.vb:hover{border-color:var(--t2)}.vb.sel-pass{background:var(--greens);color:var(--green);border-color:var(--green);font-weight:600}.vb.sel-issues{background:var(--ambers);color:var(--amber);border-color:var(--amber);font-weight:600}.vb.sel-fail{background:var(--roses);color:var(--rose);border-color:var(--rose);font-weight:600}
+textarea{width:100%;padding:10px 12px;background:var(--input);border:1px solid var(--border);border-radius:var(--r);color:var(--text);font-family:var(--fb);font-size:13px;line-height:1.6;resize:vertical;transition:border-color .2s}textarea:focus{outline:none;border-color:var(--bfocus)}textarea::placeholder{color:var(--t3)}.field-label{font-size:11px;font-weight:600;color:var(--t2);margin-bottom:4px;display:block}.field-sub{font-size:10px;color:var(--t3);margin-bottom:6px;display:block}
+.dc{background:var(--card);border:1px solid var(--border);border-radius:var(--rl);padding:22px;margin-bottom:14px}.dc.answered{border-left:3px solid var(--green)}.dc h3{font-family:var(--fd);font-size:18px;margin-bottom:8px}.dc>p{font-size:13px;color:var(--t2);line-height:1.6;margin-bottom:12px}.do{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}.db{padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:0;color:var(--t2);font-size:12px;font-family:var(--fb);cursor:pointer;transition:all .2s}.db:hover{border-color:var(--t2)}.db.sel{background:var(--golds);color:var(--gold);border-color:var(--gold);font-weight:600}
+.oc{background:var(--card);border:1px solid var(--border);border-radius:var(--rl);padding:24px;margin-bottom:14px}.oc h3{font-family:var(--fd);font-size:18px;margin-bottom:8px}
+.footer{max-width:860px;margin:0 auto;padding:40px 28px 80px;border-top:1px solid var(--border);text-align:center}.footer p{font-size:12px;color:var(--t3)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--green);color:var(--bg);padding:8px 18px;border-radius:10px;font-size:12px;font-weight:600;opacity:0;transition:opacity .3s;pointer-events:none;z-index:200}.toast.vis{opacity:1}
+@media(max-width:640px){.nav{padding:10px 14px;gap:8px}.pbar{width:80px}.hero{padding:100px 16px 40px}.sec{padding:0 16px 32px}.ph{padding:14px 16px}.pb{padding:0 16px 16px}.verdict{flex-direction:column}.do{flex-direction:column}.stats{grid-template-columns:repeat(2,1fr)}.reviewer-row{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-brand">Architecture of Harm</a>
+  <div class="nav-mid">
+    <div class="pbar"><div class="pfill" id="pf" style="width:0%;background:var(--gold)"></div></div>
+    <span id="pt">0 / 0</span>
+  </div>
+  <div class="nav-btns">
+    <button class="nb" onclick="collapseAll()">Collapse All</button>
+    <button class="nb" onclick="exportReview()">📄 Export</button>
+    <button class="nb nb-p" onclick="scrollNext()">Next ↓</button>
+  </div>
+</nav>
+
+<section class="hero">
+  <span class="badge" style="color:var(--rose)">QC Review</span>
+  <h1>The Architecture of Harm</h1>
+  <p>A Labora Collective Intelligence Report on the state of women's and children's health in the United States. This review walks through the landing page, both book versions, and each of the 14 chapters. For each chapter, check clinical accuracy, evidence quality, writing, and the reading experience.</p>
+  <div class="reviewer-row">
+    <label>Reviewer</label>
+    <input type="text" id="reviewerName" placeholder="Your name" oninput="sv('reviewer',this.value)">
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="stat-n" style="color:var(--gold)" id="sTotal">0</div><div class="stat-l">Sections</div></div>
+    <div class="stat"><div class="stat-n" style="color:var(--green)" id="sPass">0</div><div class="stat-l">Pass</div></div>
+    <div class="stat"><div class="stat-n" style="color:var(--amber)" id="sIssues">0</div><div class="stat-l">Issues</div></div>
+    <div class="stat"><div class="stat-n" style="color:var(--rose)" id="sFail">0</div><div class="stat-l">Fail</div></div>
+    <div class="stat"><div class="stat-n" style="color:var(--t3)" id="sRemain">0</div><div class="stat-l">Remaining</div></div>
+  </div>
+</section>
+
+<div class="sec">
+  <div class="how">
+    <h3>How This Works</h3>
+    <ol>
+      <li><strong>Expand a chapter card</strong> and click <strong>"Open Chapter →"</strong> to read the actual content.</li>
+      <li><strong>Read the entire chapter.</strong> Check the thesis, evidence, statistics, references, and writing quality.</li>
+      <li><strong>Come back here</strong> and go through the <strong>QC Checklist</strong> — check off what passes.</li>
+      <li>Set a <strong>verdict</strong>: ✅ Pass, ⚠️ Issues Found, or ❌ Fail.</li>
+      <li>If there are issues, <strong>add specific notes</strong> — cite the exact paragraph, quote the problem, name what's wrong.</li>
+      <li>Click <strong>"Next ↓"</strong> to move to the next chapter. <strong>Export</strong> when done.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="sec" id="pagesSection"></div>
+
+<div class="sec" id="decisionsSection">
+  <span class="badge" style="color:var(--rose)">Decision Points</span>
+  <h2>Publication Decisions</h2>
+  <p class="sec-d">These need resolution before the report goes public.</p>
+</div>
+
+<div class="sec" id="overallSection">
+  <span class="badge" style="color:var(--teal)">Final Assessment</span>
+  <h2>Overall</h2>
+  <div class="oc">
+    <h3>The Report as a Whole</h3>
+    <div style="margin-bottom:14px">
+      <span class="field-label">Is this report ready to publish?</span>
+      <div class="verdict" data-key="overall-ready">
+        <button class="vb" data-value="yes" onclick="setV(this)">✅ Yes — publish</button>
+        <button class="vb" data-value="changes" onclick="setV(this)">⚠️ Yes, with changes</button>
+        <button class="vb" data-value="not-ready" onclick="setV(this)">❌ Not yet</button>
+      </div>
+    </div>
+    <div style="margin-bottom:14px">
+      <span class="field-label">Strongest chapters</span>
+      <textarea rows="2" placeholder="Which chapters are the most compelling and well-supported?" data-key="overall-strongest" oninput="saveF(this)"></textarea>
+    </div>
+    <div style="margin-bottom:14px">
+      <span class="field-label">Weakest chapters</span>
+      <textarea rows="2" placeholder="Which need the most work? Missing evidence? Unclear argument?" data-key="overall-weakest" oninput="saveF(this)"></textarea>
+    </div>
+    <div style="margin-bottom:14px">
+      <span class="field-label">Is the emotional impact appropriate?</span>
+      <div class="verdict" data-key="overall-emotion">
+        <button class="vb" data-value="right" onclick="setV(this)">Just right — powerful but not manipulative</button>
+        <button class="vb" data-value="too-much" onclick="setV(this)">Too heavy — needs tonal balance</button>
+        <button class="vb" data-value="too-clinical" onclick="setV(this)">Too clinical — needs more humanity</button>
+      </div>
+    </div>
+    <div>
+      <span class="field-label">General notes</span>
+      <textarea rows="4" placeholder="Overall impressions, what stuck with you, what confused you, what you'd cut..." data-key="overall-notes" oninput="saveF(this)"></textarea>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <p>© 2026 Dr. Yamicia Connor · Labora Collective</p>
+  <p style="margin-top:3px">Progress saves automatically. Export your review when complete.</p>
+</footer>
+
+<div class="toast" id="toast">Saved ✓</div>
+
+<script>
+const PRODUCT = { name:'The Architecture of Harm', brand:'LC', type:'editorial', url:'' };
+
+const PAGES = [
+  // ── Site Structure ──
+  { id:'index', group:'site', gl:'Site & Structure', number:'SITE',
+    title:'Landing Page — Version Selector',
+    summary:'The entry point that presents V1 (original) and V2 (updated with 2025-2026 data). Check that both version links work, the page looks professional, and the framing is clear.',
+    url:'index.html', duration:'2 min' },
+
+  // ── The Frame ──
+  { id:'frame', group:'frame', gl:'The Frame', number:'FRAME',
+    title:'The Frame — Thesis, Context, and How This Report Works',
+    summary:'The opening section that sets up the entire report. Contains: the thesis statement, why this matters personally and nationally, the historical arc (how we got here), and a guide to reading the report. This is what a reader encounters before any chapter — it must compel them to keep reading.',
+    url:'v2_book.html', duration:'20 min' },
+
+  // ── 14 Chapters ──
+  { id:'ch01', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 01',
+    title:'Maternal Mortality — Who Is Dying and Why',
+    summary:'The foundational chapter. Establishes the maternal mortality crisis with data across eras: pre-Trump, Trump 1.0, pandemic, post-Dobbs, and Trump 2.0. Contains the core statistical framework and the "number that reframes everything." All subsequent chapters build on this foundation.',
+    url:'v2_book.html', duration:'30 min' },
+  { id:'ch02', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 02',
+    title:'Healthcare Infrastructure — The Hospitals, the Workforce, the Clinics',
+    summary:'Maps the physical infrastructure collapse: hospital closures, maternity ward shutdowns, OB/GYN workforce shortages, rural healthcare deserts. Covers the emergency surgery gap, travel burden, midwifery bottleneck, Medicaid architecture, and the parallel behavioral health workforce collapse.',
+    url:'v2_book.html', duration:'30 min' },
+  { id:'ch03', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 03',
+    title:'Funding and the Safety Net — What Was Cut and Who Loses',
+    summary:'The financial architecture chapter. Details the baseline cost of survival, how Dobbs acts as an economic multiplier, the Trump 2.0 safety net dismantling, and the "arithmetic of destruction" — the numbers showing how budget cuts translate to lives.',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch04', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 04',
+    title:'Disease Acceleration — What Is Surging While No One Watches',
+    summary:'Covers surging preventable diseases: congenital syphilis epidemic, STI surveillance destruction, childhood vaccination below herd immunity, HPV/cervical cancer prevention collapse, cancer screening structural failure, drug shortages, and SIDS reversal. Each is a cascade failure from infrastructure cuts.',
+    url:'v2_book.html', duration:'35 min' },
+  { id:'ch05', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 05',
+    title:'The Substance Use Crisis',
+    summary:'The intersection of the drug crisis with maternal/child health. Covers the qualitative shift (fentanyl + xylazine), the stimulant and polysubstance crisis, legal substance use (alcohol and cannabis) that no one is treating, and neonatal abstinence syndrome as a geographic epidemic.',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch06', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 06',
+    title:'Perinatal Mental Health',
+    summary:'The mental health crisis in pregnancy and postpartum. Covers the scale of untreated perinatal depression and anxiety, the workforce shortage preventing treatment, and the compounding effect of all other crises on mental health outcomes.',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch07', group:'chapters', gl:'Chapters 1–7: The Systems', number:'CH 07',
+    title:'Pregnancy Behind Bars',
+    summary:'The state of pregnant people in the criminal justice system. Two sections: the conditions of incarceration during pregnancy, and the systematic failure to provide care. Data on shackling, births in custody, and health outcomes for incarcerated pregnant people and their children.',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch08', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 08',
+    title:'The Children',
+    summary:'What happens to children after birth in a collapsing healthcare system. Two parts: immediate health outcomes (infant mortality, NICU capacity, birth defects) and systemic effects (CHIP funding, pediatric care access, Medicaid coverage for children).',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch09', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 09',
+    title:'Sexual Violence — The Scale Nobody Will Say Out Loud',
+    summary:'Confronts the intersection of reproductive healthcare collapse with sexual violence. Covers the scale of the problem, the destruction of forensic evidence infrastructure, the disappearance of SANE nurses, and what happens when emergency contraception becomes inaccessible.',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch10', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 10',
+    title:'The Immigration Crisis',
+    summary:'How immigration enforcement and policy intersect with maternal/child health. Covers healthcare access for undocumented populations, the chilling effect of enforcement on prenatal care, detention conditions for pregnant people, and military healthcare impacts.',
+    url:'v2_book.html', duration:'20 min' },
+  { id:'ch11', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 11',
+    title:'The Corruption — Where the Money Actually Went',
+    summary:'Follows the money. Documents where healthcare funding was redirected, the financial architecture of defunding, and the specific beneficiaries of the dismantling. This is the accountability chapter.',
+    url:'v2_book.html', duration:'30 min' },
+  { id:'ch12', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 12',
+    title:'Research and Surveillance — Destroying the Instruments',
+    summary:'How the infrastructure that would track all of the crises documented in chapters 1-11 is being systematically dismantled. Covers CDC data collection, NIH research funding, state surveillance systems, and what it means to "go blind by design."',
+    url:'v2_book.html', duration:'25 min' },
+  { id:'ch13', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 13',
+    title:'The Demographic Collapse',
+    summary:'The long-term demographic consequences of everything documented so far. Fertility rate trends, population projections, economic implications of a shrinking labor force, and the specific amplification of racial disparities across all metrics.',
+    url:'v2_book.html', duration:'30 min' },
+  { id:'ch14', group:'chapters2', gl:'Chapters 8–14: The Consequences', number:'CH 14',
+    title:'What Comes Next — The Projections',
+    summary:'The final chapter. Synthesizes all 13 previous chapters into forward-looking projections. What does the data say will happen if nothing changes? What are the intervention points? This is the "so what do we do" chapter — it must land with authority.',
+    url:'v2_book.html', duration:'25 min' },
+];
+
+const CHECKLIST = [
+  { id:'c-thesis', cat:'Content', label:'Chapter thesis is stated clearly and supported by the evidence that follows' },
+  { id:'c-artifacts', cat:'Content', label:'No AI artifacts — no internal notes, placeholder text, "thoughts" labels, or hallucinated content' },
+  { id:'c-copy', cat:'Content', label:'Writing is compelling and accessible — not robotic, not filler, no repeated phrases' },
+  { id:'c-data', cat:'Content', label:'Statistics and data points have specific sources cited (not vague "studies show")' },
+  { id:'c-refs', cat:'Content', label:'References/footnotes are formatted and verifiable — no "[Unknown Source]" or placeholder citations' },
+  { id:'c-arc', cat:'Content', label:'Narrative arc works — builds logically from evidence to conclusion' },
+  { id:'c-tone', cat:'Content', label:'Tone is authoritative but human — not preachy, not sensationalized, not cold' },
+  { id:'c-flow', cat:'Content', label:'Transitions between sections are smooth — no jarring jumps' },
+  { id:'cl-accuracy', cat:'Clinical', label:'Clinical claims are accurate and evidence-based' },
+  { id:'cl-current', cat:'Clinical', label:'Data is current (2024-2026) — not using outdated pre-pandemic numbers where newer data exists' },
+  { id:'cl-disparity', cat:'Clinical', label:'Racial and geographic disparities are named specifically, not glossed over' },
+  { id:'cl-sensitivity', cat:'Clinical', label:'Language around vulnerable populations is appropriate and non-stigmatizing' },
+  { id:'t-render', cat:'Technical', label:'Chapter renders correctly — no broken HTML, missing sections, or formatting issues' },
+  { id:'t-fonts', cat:'Technical', label:'Fonts and typography are consistent throughout' },
+  { id:'t-read', cat:'Technical', label:'Reading experience is good — line length, spacing, heading hierarchy all work' },
+  { id:'t-mobile', cat:'Technical', label:'Readable on a phone screen' },
+  { id:'t-footnotes', cat:'Technical', label:'Footnotes/references link correctly (if clickable)' },
+];
+
+const CAT_COLORS = { Content:'var(--gold)', Clinical:'var(--rose)', Technical:'var(--teal)' };
+
+const DECISIONS = [
+  { id:'d-version', title:'V1 vs V2 — Which Version Ships?',
+    context:'The book exists in two versions: V1 (original chapter drafts) and V2 (expanded with 2025-2026 data). They may need to be reconciled or one chosen as the canonical release.',
+    options:['V2 only — it\'s the definitive version','Both — V1 as "original" and V2 as "updated"','Merge the best of both into a single final version','Need to compare them side-by-side first'] },
+  { id:'d-deploy', title:'Deployment Strategy',
+    context:'The book currently exists as HTML files in a GitHub repo with no Netlify site. How should it be deployed and made accessible?',
+    options:['Own domain (architectureofharm.com or similar)','Subdomain (harm.laboracollective.com)','On the DA Company site','On the LC editorial staging site'] },
+  { id:'d-format', title:'Publication Format',
+    context:'Currently a single long HTML page per version. For a 14-chapter book, should it be broken into individual chapter pages, kept as a single scroll, or offered in multiple formats?',
+    options:['Single scroll (current) — it\'s a long-read experience','Break into individual chapter pages with navigation','Both — scrollable web version + downloadable PDF','Chapter pages with a "read full book" option'] },
+  { id:'d-audience', title:'Primary Audience',
+    context:'The report serves multiple audiences (clinicians, policymakers, journalists, general public). Who is the primary target? This affects tone, technical detail level, and distribution strategy.',
+    options:['Clinicians and healthcare professionals','Policymakers and legislators','Journalists and media','General public / advocacy','All of the above (multi-audience design)'] },
+];
+
+// ═══════════════════════════════════════════
+// ENGINE (same pattern as PG + Newsletter)
+// ═══════════════════════════════════════════
+function renderPages() {
+  const c = document.getElementById('pagesSection');
+  let curG = '';
+  const gCounts = {};
+  PAGES.forEach(p => { gCounts[p.group] = (gCounts[p.group]||0) + 1; });
+
+  PAGES.forEach(p => {
+    if (p.group !== curG) {
+      curG = p.group;
+      const h = document.createElement('div');
+      h.className = 'gh';
+      h.innerHTML = `<span class="gb" style="background:var(--golds);color:var(--gold)">${p.gl}</span><span style="font-size:12px;color:var(--t3)">${gCounts[curG]} sections</span>`;
+      c.appendChild(h);
+    }
+
+    const card = document.createElement('div');
+    card.className = 'pc'; card.id = `card-${p.id}`;
+
+    let clHTML = ''; let curCat = '';
+    CHECKLIST.forEach(q => {
+      if (q.cat !== curCat) {
+        if (curCat) clHTML += '</div>';
+        curCat = q.cat;
+        const cc = CAT_COLORS[curCat] || 'var(--t2)';
+        clHTML += `<div class="qc-section"><div class="qc-cat"><span class="qc-cat-dot" style="background:${cc}"></span><span style="color:${cc}">${curCat}</span></div>`;
+      }
+      clHTML += `<div class="qc-item"><input type="checkbox" class="qc-cb" data-key="qc-${p.id}-${q.id}" onchange="toggleCL(this)"><label class="qc-label" onclick="this.previousElementSibling.click()">${q.label}</label></div>`;
+    });
+    clHTML += '</div>';
+
+    card.innerHTML = `
+      <div class="ph" onclick="tog('${p.id}')">
+        <div class="ph-l">
+          <div class="pn">${p.number} · ${p.duration}<span class="vbadge" id="vb-${p.id}"></span></div>
+          <div class="pt">${p.title}</div>
+          <div class="ps">${p.summary}</div>
+        </div>
+        <div class="ptog">▾</div>
+      </div>
+      <div class="pb">
+        <a href="${p.url}" target="_blank" class="olink">Open Chapter →</a>
+        ${clHTML}
+        <div style="margin:16px 0 8px">
+          <span class="field-label">Verdict</span>
+          <div class="verdict" data-key="v-${p.id}">
+            <button class="vb" data-value="pass" onclick="setV(this)">✅ Pass</button>
+            <button class="vb" data-value="issues" onclick="setV(this)">⚠️ Issues Found</button>
+            <button class="vb" data-value="fail" onclick="setV(this)">❌ Fail</button>
+          </div>
+        </div>
+        <div>
+          <span class="field-label">Notes</span>
+          <span class="field-sub">Quote specific problem text, cite paragraph numbers, name missing references, flag clinical inaccuracies.</span>
+          <textarea rows="3" placeholder="Specific feedback for this chapter..." data-key="n-${p.id}" oninput="saveF(this)"></textarea>
+        </div>
+        <div style="margin-top:12px;text-align:right">
+          <button class="nb nb-p" onclick="scrollNextFrom('${p.id}')">Next Chapter →</button>
+        </div>
+      </div>`;
+    c.appendChild(card);
+  });
+  document.getElementById('sTotal').textContent = PAGES.length;
+}
+
+function renderDecisions() {
+  const c = document.getElementById('decisionsSection');
+  DECISIONS.forEach((d,i) => {
+    const card = document.createElement('div');
+    card.className = 'dc'; card.id = `dec-${d.id}`;
+    card.innerHTML = `<span class="badge" style="color:var(--rose);margin-bottom:6px">Decision ${i+1}</span><h3>${d.title}</h3><p>${d.context}</p><div class="do" data-key="d-${d.id}">${d.options.map(o => `<button class="db" data-value="${o}" onclick="setD(this)">${o}</button>`).join('')}</div><span class="field-label">Notes</span><textarea rows="2" placeholder="Why? Context for this decision?" data-key="dn-${d.id}" oninput="saveF(this)"></textarea>`;
+    c.appendChild(card);
+  });
+}
+
+function tog(id){document.getElementById(`card-${id}`).classList.toggle('open')}
+function collapseAll(){document.querySelectorAll('.pc.open').forEach(c=>c.classList.remove('open'))}
+function toggleCL(cb){cb.nextElementSibling.classList.toggle('checked',cb.checked);sv(cb.dataset.key,cb.checked?'1':'');toast()}
+function setV(btn){const g=btn.parentElement,k=g.dataset.key,v=btn.dataset.value;g.querySelectorAll('.vb').forEach(b=>b.className='vb');btn.classList.add(`sel-${v}`);sv(k,v);const pid=k.replace('v-','');const card=document.getElementById(`card-${pid}`);if(card){card.classList.remove('pass','issues','fail');card.classList.add(v)}const badge=document.getElementById(`vb-${pid}`);if(badge){if(v==='pass'){badge.textContent='✅ Pass';badge.style.cssText='background:var(--greens);color:var(--green)'}else if(v==='issues'){badge.textContent='⚠️ Issues';badge.style.cssText='background:var(--ambers);color:var(--amber)'}else if(v==='fail'){badge.textContent='❌ Fail';badge.style.cssText='background:var(--roses);color:var(--rose)'}}updProgress();toast()}
+function setD(btn){const g=btn.parentElement;g.querySelectorAll('.db').forEach(b=>b.classList.remove('sel'));btn.classList.add('sel');sv(g.dataset.key,btn.dataset.value);btn.closest('.dc')?.classList.add('answered');toast()}
+function saveF(el){sv(el.dataset.key,el.value);clearTimeout(el._t);el._t=setTimeout(toast,400)}
+function scrollNext(){for(const p of PAGES){if(!ld(`v-${p.id}`)){const c=document.getElementById(`card-${p.id}`);c.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(()=>c.classList.add('open'),300);return}}document.getElementById('overallSection').scrollIntoView({behavior:'smooth'})}
+function scrollNextFrom(currentId){const idx=PAGES.findIndex(p=>p.id===currentId);document.getElementById(`card-${currentId}`).classList.remove('open');for(let i=idx+1;i<PAGES.length;i++){if(!ld(`v-${PAGES[i].id}`)){const c=document.getElementById(`card-${PAGES[i].id}`);c.scrollIntoView({behavior:'smooth',block:'center'});setTimeout(()=>c.classList.add('open'),300);return}}document.getElementById('decisionsSection').scrollIntoView({behavior:'smooth'})}
+function updProgress(){let pass=0,issues=0,fail=0;PAGES.forEach(p=>{const v=ld(`v-${p.id}`);if(v==='pass')pass++;else if(v==='issues')issues++;else if(v==='fail')fail++});const done=pass+issues+fail,pct=Math.round(done/PAGES.length*100);const color=fail>0?'var(--rose)':issues>0?'var(--amber)':'var(--green)';document.getElementById('pf').style.width=pct+'%';document.getElementById('pf').style.background=color;document.getElementById('pt').textContent=`${done} / ${PAGES.length}`;document.getElementById('sPass').textContent=pass;document.getElementById('sIssues').textContent=issues;document.getElementById('sFail').textContent=fail;document.getElementById('sRemain').textContent=PAGES.length-done}
+const PK='aoh-qc-';
+function sv(k,v){try{localStorage.setItem(PK+k,v)}catch(e){}}
+function ld(k){try{return localStorage.getItem(PK+k)||''}catch(e){return''}}
+function restore(){const rn=ld('reviewer');if(rn)document.getElementById('reviewerName').value=rn;document.querySelectorAll('.qc-cb').forEach(cb=>{if(ld(cb.dataset.key)==='1'){cb.checked=true;cb.nextElementSibling.classList.add('checked')}});document.querySelectorAll('.verdict').forEach(g=>{const k=g.dataset.key;if(!k)return;const s=ld(k);if(!s)return;g.querySelectorAll('.vb').forEach(b=>{if(b.dataset.value===s){b.classList.add(`sel-${s}`);const pid=k.replace('v-','');const card=document.getElementById(`card-${pid}`);if(card)card.classList.add(s);const badge=document.getElementById(`vb-${pid}`);if(badge){if(s==='pass'){badge.textContent='✅ Pass';badge.style.cssText='background:var(--greens);color:var(--green)'}else if(s==='issues'){badge.textContent='⚠️ Issues';badge.style.cssText='background:var(--ambers);color:var(--amber)'}else if(s==='fail'){badge.textContent='❌ Fail';badge.style.cssText='background:var(--roses);color:var(--rose)'}}}})});document.querySelectorAll('.do').forEach(g=>{const k=g.dataset.key;if(!k)return;const s=ld(k);if(!s)return;g.querySelectorAll('.db').forEach(b=>{if(b.dataset.value===s){b.classList.add('sel');b.closest('.dc')?.classList.add('answered')}})});document.querySelectorAll('textarea[data-key]').forEach(t=>{const s=ld(t.dataset.key);if(s)t.value=s});document.querySelectorAll('#overallSection .verdict').forEach(g=>{const k=g.dataset.key;if(!k)return;const s=ld(k);if(!s)return;g.querySelectorAll('.vb').forEach(b=>{if(b.dataset.value===s)b.classList.add(`sel-${s==='yes'||s==='right'?'pass':s==='changes'||s==='too-much'||s==='too-clinical'?'issues':'fail'}`)})});updProgress()}
+function exportReview(){const reviewer=ld('reviewer')||'Anonymous',now=new Date();let o='═══════════════════════════════════════════════════\n THE ARCHITECTURE OF HARM — QC REVIEW\n═══════════════════════════════════════════════════\n';o+=`Reviewer: ${reviewer}\nExported: ${now.toLocaleString()}\nProduct:  The Architecture of Harm (v2_book.html)\n\n`;let pass=0,issues=0,fail=0,unrev=0;PAGES.forEach(p=>{const v=ld(`v-${p.id}`);if(v==='pass')pass++;else if(v==='issues')issues++;else if(v==='fail')fail++;else unrev++});o+=`SUMMARY: ${pass} passed · ${issues} issues · ${fail} failed · ${unrev} unreviewed\n\n`;let curG='';PAGES.forEach(p=>{if(p.group!==curG){curG=p.group;o+=`\n── ${p.gl.toUpperCase()} ──\n\n`}const v=ld(`v-${p.id}`)||'(not reviewed)';const vl=v==='pass'?'✅ PASS':v==='issues'?'⚠️ ISSUES':v==='fail'?'❌ FAIL':v;o+=`${p.number}: ${p.title}\n  Verdict: ${vl}\n`;const unc=CHECKLIST.filter(q=>ld(`qc-${p.id}-${q.id}`)!=='1');if(unc.length>0&&v!=='(not reviewed)'){o+='  Failed checks:\n';unc.forEach(u=>o+=`    ❌ ${u.label}\n`)}const notes=ld(`n-${p.id}`);if(notes)o+=`  Notes: ${notes}\n`;o+='\n'});o+='\n── DECISIONS ──\n\n';DECISIONS.forEach((d,i)=>{o+=`Decision ${i+1}: ${d.title}\n  Choice: ${ld(`d-${d.id}`)||'(no selection)'}\n`;const dn=ld(`dn-${d.id}`);if(dn)o+=`  Notes: ${dn}\n`;o+='\n'});o+='── OVERALL ──\n\n';o+=`Ready: ${ld('overall-ready')||'(not answered)'}\nEmotional tone: ${ld('overall-emotion')||'(not answered)'}\n`;['overall-strongest','overall-weakest','overall-notes'].forEach(k=>{const v=ld(k);if(v)o+=`${k.replace('overall-','')}: ${v}\n`});const blob=new Blob([o],{type:'text/plain'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`architecture-of-harm-review-${now.toISOString().slice(0,10)}.txt`;a.click();URL.revokeObjectURL(a.href);toast('Exported!')}
+function toast(m){const t=document.getElementById('toast');t.textContent=m||'Saved ✓';t.classList.add('vis');clearTimeout(t._t);t._t=setTimeout(()=>t.classList.remove('vis'),1500)}
+renderPages();renderDecisions();restore();
+</script>
+</body>
+</html>
